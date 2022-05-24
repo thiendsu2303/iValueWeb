@@ -10,6 +10,10 @@ function DefaultLayout({ children }) {
                 <SideBar />
                 <div className="content">{children}</div>
             </div>
+            <Footer />
+            <a id="back-to-top" href="#" class="btn btn-primary btn-lg back-to-top" role="button">
+                <span class="glyphicon glyphicon-chevron-up"></span>
+            </a>
         </div>
     );
 }
