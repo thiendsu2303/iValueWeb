@@ -35,10 +35,41 @@ function Footer() {
                                 <div className={cx('center')}>
                                     <h4 className={cx('dang-ky-form')}>Đăng ký</h4>
                                     <div className={cx('clear10')}></div>
-                                    <p style="color: #a4a4a4;">Đăng ký để nhận thông tin mới nhất từ chúng tôi</p>
+                                    <p className={cx('dang-ky-nhan-thong-tin')}>
+                                        Đăng ký để nhận thêm thông tin mới nhất từ chúng tôi
+                                    </p>
+                                    <div className={cx('clear10')}></div>
+                                    <form className={cx('f-from-se')}>
+                                        <div className={cx('input-group stylish-input-group')}>
+                                            <input
+                                                type="text"
+                                                className={cx('form-control')}
+                                                placeholder="Email của bạn..."
+                                                name="email"
+                                                required
+                                            ></input>
+                                            <span className={cx('input-gr-addon')}>
+                                                <button name="nhantin" type="submit">
+                                                    <i className={cx('fas fa-paper-plane')}></i>
+                                                </button>
+                                            </span>
+                                        </div>
+                                    </form>
                                 </div>
                             </div>
-                            <div className={cx('col-md-4')}></div>
+                            <div className={cx('col-md-4')}>
+                                <div className={cx('social-ft-flex')}>
+                                    <a className={cx('#')}>
+                                        <i className={cx('fab fa-facebook-f')}></i>
+                                    </a>
+                                    <a className={cx('#')}>
+                                        <i className={cx('fab fa-twitter')}></i>
+                                    </a>
+                                    <a className={cx('#')}>
+                                        <i className={cx('fab fa-linkedin')}></i>
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div className={cx('clear')}></div>
