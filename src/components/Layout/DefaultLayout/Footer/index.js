@@ -14,7 +14,7 @@ function Footer() {
                             <div className={cx('col-md-4')}>
                                 <div className={cx('info-com-ft')}>
                                     <p>
-                                        <strong>CÔNG TY THẨM ĐỊNH GIÁ IVALUE</strong>
+                                        <strong>CÔNG TY TNHH THẨM ĐỊNH GIÁ IVALUE</strong>
                                     </p>
                                     <p>
                                         <strong>Địa chỉ: </strong>
@@ -74,7 +74,11 @@ function Footer() {
                     </div>
                     <div className={cx('clear')}></div>
                 </div>
-                <div className={cx('footer-bottom')}></div>
+                <div className={cx('footer-bottom')}>
+                    <div className={cx('container')}>
+                        <p className={cx('center')}>© Copyright 2020 CÔNG TY TNHH THẨM ĐỊNH GIÁ IVALUE</p>
+                    </div>
+                </div>
             </footer>
         </div>
     );
