@@ -11,7 +11,7 @@ function Header() {
                 <div className={cx('header-top')}>
                     <div className={cx('container')}>
                         <div className={cx('flex-box')}>
-                            <a href="/" className={cx('Logo')}>
+                            <a href="#" className={cx('Logo')}>
                                 <img src={logo} alt="logo"></img>
                             </a>
                             <div className={cx('info')}>

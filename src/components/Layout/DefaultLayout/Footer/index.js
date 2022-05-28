@@ -6,11 +6,11 @@ const cx = classNames.bind(styles);
 function Footer() {
     return (
         <div>
-            <footer className={cx('')}>
+            <footer className={cx('footer')}>
                 <div className={cx('footer-top')}>
-                    <div className={cx('clear')}></div>
+                    <div className={cx('clear40')}></div>
                     <div className={cx('container')}>
-                        <div className={cx('row flex-bw aos init aos-animate')} data-aos="fade-down">
+                        <div className={cx('flex-bw')} data-aos="fade-down">
                             <div className={cx('col-md-4')}>
                                 <div className={cx('info-com-ft')}>
                                     <p>
@@ -33,14 +33,14 @@ function Footer() {
                             </div>
                             <div className={cx('col-md-4')}>
                                 <div className={cx('center')}>
-                                    <h4 className={cx('dang-ky-form')}>Đăng ký</h4>
+                                    <h4 className={cx('dang-ky-form')}>ĐĂNG KÝ</h4>
                                     <div className={cx('clear10')}></div>
                                     <p className={cx('dang-ky-nhan-thong-tin')}>
                                         Đăng ký để nhận thêm thông tin mới nhất từ chúng tôi
                                     </p>
                                     <div className={cx('clear10')}></div>
                                     <form className={cx('f-from-se')}>
-                                        <div className={cx('input-group stylish-input-group')}>
+                                        <div className={cx('input-group')}>
                                             <input
                                                 type="text"
                                                 className={cx('form-control')}
@@ -48,7 +48,7 @@ function Footer() {
                                                 name="email"
                                                 required
                                             ></input>
-                                            <span className={cx('input-gr-addon')}>
+                                            <span className={cx('input-group-addon')}>
                                                 <button name="nhantin" type="submit">
                                                     <i className={cx('fas fa-paper-plane')}></i>
                                                 </button>
@@ -58,21 +58,21 @@ function Footer() {
                                 </div>
                             </div>
                             <div className={cx('col-md-4')}>
-                                <div className={cx('social-ft-flex')}>
-                                    <a className={cx('#')}>
+                                <div className={cx('social-ft')}>
+                                    <a href="#" className={cx('')}>
                                         <i className={cx('fab fa-facebook-f')}></i>
                                     </a>
-                                    <a className={cx('#')}>
+                                    <a href="#" className={cx('')}>
                                         <i className={cx('fab fa-twitter')}></i>
                                     </a>
-                                    <a className={cx('#')}>
+                                    <a href="#" className={cx('')}>
                                         <i className={cx('fab fa-linkedin')}></i>
                                     </a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div className={cx('clear')}></div>
+                    <div className={cx('clear40')}></div>
                 </div>
                 <div className={cx('footer-bottom')}>
                     <div className={cx('container')}>
