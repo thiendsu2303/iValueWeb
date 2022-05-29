@@ -1,13 +1,25 @@
 import classNames from 'classnames/bind';
 import styles from './Header.module.scss';
 import logo from '../../../../assets/images/logo.jpg';
+import { useState } from 'react';
 
 const cx = classNames.bind(styles);
 // console.log(images);
 function Header() {
+    const [Header, setHeader] = useState(false);
+
+    const afterScroll = () => {
+        if(window.scrollY >= 100) {
+            setHeader(true);
+        }
+        else {
+            setHeader(false);
+        }
+    }
+    window.addEventListener('scroll', afterScroll);
     return (
         <div>
-            <header className={cx('')}>
+            <header className={Header ? cx('header-fixed') : cx(' ')}>
                 <div className={cx('header-top')}>
                     <div className={cx('container')}>
                         <div className={cx('flex-box')}>

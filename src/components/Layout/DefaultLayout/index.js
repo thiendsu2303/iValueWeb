@@ -11,7 +11,7 @@ function DefaultLayout({ children }) {
         <div>
             <Header />
             <div className="container">
-                <SideBar />
+                {/* <SideBar /> */}
                 <div className="content">{children}</div>
             </div>
             <Footer />
