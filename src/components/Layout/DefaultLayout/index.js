@@ -21,8 +21,9 @@ function DefaultLayout({ children }) {
         <div>
             <Header />
             <div className="container">
-                {/* <SideBar /> */}
-                <div className="content">{children}</div>
+                <div className="clear40"></div>
+                <SideBar />
+                {/* <div className="content">{children}</div> */}
             </div>
             <Footer />
             <a id="back-to-top" href="#" className={cx('btn', 'btn-primary', 'btn-lg', 'back-to-top')} role="button">

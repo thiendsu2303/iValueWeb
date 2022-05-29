@@ -1,0 +1,88 @@
+.col-md-3 {
+    position: relative;
+    width: 25%;
+    min-height: 1px;
+    padding: 0 15px;
+}
+
+.aside-giaidap {
+    padding: 30px 20px;
+    background: url(../../../../assets/images/sidebar-bg1.jpg) center center no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.aside-giaidap:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+}
+
+.tit-giaidap {
+    margin: 0;
+    margin-bottom: 15px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 24px;
+    position: relative;
+    z-index: 2;
+}
+
+.des-gd {
+    color: #fff;
+    margin-bottom: 15px;
+    position: relative;
+    z-index: 2;
+}
+
+.a-giaidap {
+    display: inline-block;
+    color: #fff;
+    padding: 5px 20px;
+    border: 2px solid #fff;
+    position: relative;
+    z-index: 2;
+}
+
+.a-giaidap i {
+    font-size: 12px;
+    margin-left: 7px;
+}
+
+.tit-aside {
+    font-weight: 700;
+    font-size: 20px;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.a-call-us {
+    text-decoration: none;
+    border-radius: 5px;
+    background: var(--primary-color);
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    position: relative;
+    border: 1px solid transparent;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.a-call-us:after {
+    text-decoration: none;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    box-shadow: inset -0.01em -0.1em 0 0 rgb(0 0 0 / 15%);
+}

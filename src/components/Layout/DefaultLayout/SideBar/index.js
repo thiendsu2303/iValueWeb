@@ -5,41 +5,38 @@ const cx = classNames.bind(styles);
 function SideBar() {
     return (
         <div className={cx('col-md-3', 'order-3', 'aos-init', 'aos-animate')} data-aos="fade-right">
-            <div className={cx('aside-giaidap')}>
+            <div className={cx('aside-giaidap')} data-aos="fade-right">
                 <h4 className={cx('tit-giaidap')}>Giải đáp thắc mắc</h4>
                 <div className={cx('des-gd')}>Hãy đặt câu hỏi cho chúng tôi để được giải đáp</div>
                 <a href="lienhe" className={cx('a-giaidap')}>
-                    "Liên hệ"
-                    <i className={cx('fas', 'fa-chevron-right')}></i>
+                    Liên hệ
+                    <i className={cx('fas fa-chevron-right')}></i>
                 </a>
             </div>
             <hr></hr>
-            <div className={cx('call-us')}>
+            <div className={cx('call-us')} data-aos="fade-right">
                 <h4 className={cx('tit-aside')}>Hoặc gọi đến đường dây nóng ngay lập tức:</h4>
-                <a href="tel:0926 37 9999" className={cx('a-all-us')}>
+                <a href="tel:0926 37 9999" className={cx('a-call-us')}>
                     0926 37 9999
                 </a>
             </div>
             <hr></hr>
-            <div className={cx('khachhangdanggia')}>
+            <div className={cx('khachhangdanggia')} data-aos="fade-right">
                 <h4 className={cx('tit-aside')}>Khách hàng đánh giá:</h4>
                 <div className={cx('block-slider-kh')}>
                     <div className={cx('slider-kh', 'owl-carousel', 'owl-theme', 'owl-loaded', 'owl-drag')}>
                         <div className={cx('owl-stage-outer')}>
-                            <div
-                                className={cx('owl-stage')}
-                                style="width: 1728px ; transform: translate3d(-576px,0px,0px); transition: all 0s ease 0s; "
-                            >
-                                <div className={cx('owl-item', 'cloned')} style="width: 278px; margin-right: 10px">
+                            <div className={cx('owl-stage')}>
+                                <div className={cx('owl-item', 'cloned')}>
                                     <div className={cx('item-kh')}>
                                         <div className={cx('img-avatar')}>
                                             <img></img>
                                         </div>
                                         <div className={cx('rating')}>
-                                            <span className={cx('fa', 'fa-star', 'checked')}></span>
-                                            <span className={cx('fa', 'fa-star', 'checked')}></span>
-                                            <span className={cx('fa', 'fa-star', 'checked')}></span>
-                                            <span className={cx('fa', 'fa-star', 'checked')}></span>
+                                            <span className={cx('fa fa-star', 'checked')}></span>
+                                            <span className={cx('fa fa-star', 'checked')}></span>
+                                            <span className={cx('fa fa-star', 'checked')}></span>
+                                            <span className={cx('fa fa-star', 'checked')}></span>
                                         </div>
                                         <div className={cx('des-kh')}>
                                             Chuyên tư vấn giải pháp cho các doanh nghiệp lớn, vừa nhỏ trong các lĩnh vực
@@ -48,16 +45,16 @@ function SideBar() {
                                         <p className={cx('name-kh')}>Khách hàng</p>
                                     </div>
                                 </div>
-                                <div className={cx('owl-item', 'cloned')} style="width: 278px; margin-right: 10px">
+                                <div className={cx('owl-item', 'cloned')}>
                                     <div className={cx('item-kh')}>
                                         <div className={cx('img-avatar')}>
                                             <img></img>
                                         </div>
                                         <div className={cx('rating')}>
-                                            <span className={cx('fa', 'fa-star', 'checked')}></span>
-                                            <span className={cx('fa', 'fa-star', 'checked')}></span>
-                                            <span className={cx('fa', 'fa-star', 'checked')}></span>
-                                            <span className={cx('fa', 'fa-star', 'checked')}></span>
+                                            <span className={cx('fa fa-star', 'checked')}></span>
+                                            <span className={cx('fa fa-star', 'checked')}></span>
+                                            <span className={cx('fa fa-star', 'checked')}></span>
+                                            <span className={cx('fa fa-star', 'checked')}></span>
                                         </div>
                                         <div className={cx('des-kh')}>
                                             Chuyên tư vấn giải pháp cho các doanh nghiệp lớn, vừa nhỏ trong các lĩnh vực
@@ -66,16 +63,16 @@ function SideBar() {
                                         <p className={cx('name-kh')}>Khách hàng</p>
                                     </div>
                                 </div>
-                                <div className={cx('owl-item', 'active')} style="width: 278px; margin-right: 10px">
+                                <div className={cx('owl-item', 'active')}>
                                     <div className={cx('item-kh')}>
                                         <div className={cx('img-avatar')}>
                                             <img></img>
                                         </div>
                                         <div className={cx('rating')}>
-                                            <span className={cx('fa', 'fa-star', 'checked')}></span>
-                                            <span className={cx('fa', 'fa-star', 'checked')}></span>
-                                            <span className={cx('fa', 'fa-star', 'checked')}></span>
-                                            <span className={cx('fa', 'fa-star', 'checked')}></span>
+                                            <span className={cx('fa fa-star', 'checked')}></span>
+                                            <span className={cx('fa fa-star', 'checked')}></span>
+                                            <span className={cx('fa fa-star', 'checked')}></span>
+                                            <span className={cx('fa fa-star', 'checked')}></span>
                                         </div>
                                         <div className={cx('des-kh')}>
                                             Chuyên tư vấn giải pháp cho các doanh nghiệp lớn, vừa nhỏ trong các lĩnh vực
@@ -84,16 +81,16 @@ function SideBar() {
                                         <p className={cx('name-kh')}>Khách hàng</p>
                                     </div>
                                 </div>
-                                <div className={cx('owl-item')} style="width: 278px; margin-right: 10px">
+                                <div className={cx('owl-item')}>
                                     <div className={cx('item-kh')}>
                                         <div className={cx('img-avatar')}>
                                             <img></img>
                                         </div>
                                         <div className={cx('rating')}>
-                                            <span className={cx('fa', 'fa-star', 'checked')}></span>
-                                            <span className={cx('fa', 'fa-star', 'checked')}></span>
-                                            <span className={cx('fa', 'fa-star', 'checked')}></span>
-                                            <span className={cx('fa', 'fa-star', 'checked')}></span>
+                                            <span className={cx('fa fa-star', 'checked')}></span>
+                                            <span className={cx('fa fa-star', 'checked')}></span>
+                                            <span className={cx('fa fa-star', 'checked')}></span>
+                                            <span className={cx('fa fa-star', 'checked')}></span>
                                         </div>
                                         <div className={cx('des-kh')}>
                                             Chuyên tư vấn giải pháp cho các doanh nghiệp lớn, vừa nhỏ trong các lĩnh vực
@@ -102,16 +99,16 @@ function SideBar() {
                                         <p className={cx('name-kh')}>Khách hàng</p>
                                     </div>
                                 </div>
-                                <div className={cx('owl-item', 'cloned')} style="width: 278px; margin-right: 10px">
+                                <div className={cx('owl-item', 'cloned')}>
                                     <div className={cx('item-kh')}>
                                         <div className={cx('img-avatar')}>
                                             <img></img>
                                         </div>
                                         <div className={cx('rating')}>
-                                            <span className={cx('fa', 'fa-star', 'checked')}></span>
-                                            <span className={cx('fa', 'fa-star', 'checked')}></span>
-                                            <span className={cx('fa', 'fa-star', 'checked')}></span>
-                                            <span className={cx('fa', 'fa-star', 'checked')}></span>
+                                            <span className={cx('fa fa-star', 'checked')}></span>
+                                            <span className={cx('fa fa-star', 'checked')}></span>
+                                            <span className={cx('fa fa-star', 'checked')}></span>
+                                            <span className={cx('fa fa-star', 'checked')}></span>
                                         </div>
                                         <div className={cx('des-kh')}>
                                             Chuyên tư vấn giải pháp cho các doanh nghiệp lớn, vừa nhỏ trong các lĩnh vực
@@ -120,16 +117,16 @@ function SideBar() {
                                         <p className={cx('name-kh')}>Khách hàng</p>
                                     </div>
                                 </div>
-                                <div className={cx('owl-item', 'cloned')} style="width: 278px; margin-right: 10px">
+                                <div className={cx('owl-item', 'cloned')}>
                                     <div className={cx('item-kh')}>
                                         <div className={cx('img-avatar')}>
                                             <img></img>
                                         </div>
                                         <div className={cx('rating')}>
-                                            <span className={cx('fa', 'fa-star', 'checked')}></span>
-                                            <span className={cx('fa', 'fa-star', 'checked')}></span>
-                                            <span className={cx('fa', 'fa-star', 'checked')}></span>
-                                            <span className={cx('fa', 'fa-star', 'checked')}></span>
+                                            <span className={cx('fa fa-star', 'checked')}></span>
+                                            <span className={cx('fa fa-star', 'checked')}></span>
+                                            <span className={cx('fa fa-star', 'checked')}></span>
+                                            <span className={cx('fa fa-star', 'checked')}></span>
                                         </div>
                                         <div className={cx('des-kh')}>
                                             Chuyên tư vấn giải pháp cho các doanh nghiệp lớn, vừa nhỏ trong các lĩnh vực
