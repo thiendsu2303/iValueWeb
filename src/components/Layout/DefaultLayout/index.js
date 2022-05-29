@@ -7,6 +7,16 @@ import styles from './DefaultLayout.module.scss';
 const cx = classNames.bind(styles);
 
 function DefaultLayout({ children }) {
+    const afterScroll = () => {
+        const backToTop = document.getElementById("back-to-top");
+        if(window.scrollY >= 5) {
+            backToTop.style.display = "block";
+        }
+        else {
+            backToTop.style.display = "none";
+        }
+    }
+    window.addEventListener('scroll', afterScroll);
     return (
         <div>
             <Header />
