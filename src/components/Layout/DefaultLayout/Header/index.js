@@ -11,7 +11,7 @@ function Header() {
                 <div className={cx('header-top')}>
                     <div className={cx('container')}>
                         <div className={cx('flex-box')}>
-                            <a href="#" className={cx('Logo')}>
+                            <a href="/" className={cx('Logo')}>
                                 <img src={logo} alt="logo"></img>
                             </a>
                             <div className={cx('info')}>
@@ -55,12 +55,12 @@ function Header() {
                     <div className={cx('header-bottom-container')}>
                         <ul className={cx('ul-main-menu')}>
                             <li className={cx('header-home')}>
-                                <a href="#">
+                                <a href="/">
                                     <i className={cx('fas', 'fa-home')}></i>
                                 </a>
                             </li>
                             <li>
-                                <a href="#">GIỚI THIỆU</a>
+                                <a href="/gioi-thieu">GIỚI THIỆU</a>
                             </li>
                             <li className={cx('header-service')}>
                                 <a href="#">
@@ -69,33 +69,33 @@ function Header() {
                                 </a>
                                 <ul className={cx('header-service-menu')}>
                                     <li>
-                                        <a href="#">THẨM ĐỊNH GIÁ BẤT ĐỘNG SẢN</a>
+                                        <a href="/tdg-bds">THẨM ĐỊNH GIÁ BẤT ĐỘNG SẢN</a>
                                     </li>
                                     <li>
-                                        <a href="#">THẨM ĐỊNH GIÁ ĐỘNG SẢN</a>
+                                        <a href="/tgd-ds">THẨM ĐỊNH GIÁ ĐỘNG SẢN</a>
                                     </li>
                                     <li>
-                                        <a href="#">THẨM ĐỊNH GIÁ DOANH NGHIỆP</a>
+                                        <a href="/tdg-dn">THẨM ĐỊNH GIÁ DOANH NGHIỆP</a>
                                     </li>
                                     <li>
-                                        <a href="#">THẨM ĐỊNH GIÁ TRỊ VÔ HÌNH</a>
+                                        <a href="/tdg-vh">THẨM ĐỊNH GIÁ TRỊ VÔ HÌNH</a>
                                     </li>
                                     <li>
-                                        <a href="#">TƯ VẤN ĐẦU TƯ</a>
+                                        <a href="/tv-dt">TƯ VẤN ĐẦU TƯ</a>
                                     </li>
                                     <li>
-                                        <a href="#">TƯ VẤN BẤT ĐỘNG SẢN</a>
+                                        <a href="/tv-bds">TƯ VẤN BẤT ĐỘNG SẢN</a>
                                     </li>
                                     <li>
-                                        <a href="#">CUNG CẤP THÔNG TIN KINH TẾ</a>
+                                        <a href="/cc-ttkt">CUNG CẤP THÔNG TIN KINH TẾ</a>
                                     </li>
                                 </ul>
                             </li>
                             <li>
-                                <a href="#">DỰ ÁN</a>
+                                <a href="/du-an">DỰ ÁN</a>
                             </li>
                             <li>
-                                <a href="#">LIÊN HỆ</a>
+                                <a href="/lien-he">LIÊN HỆ</a>
                             </li>
                             {/* <li className={cx('has-search')}>
                                 <a href="#">
