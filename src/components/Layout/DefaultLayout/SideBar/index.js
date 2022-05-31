@@ -1,5 +1,8 @@
 import classNames from 'classnames/bind';
 import styles from './SideBar.module.scss';
+import Croursel from 'react-elastic-carousel';
+import FeedBack from '../FeedBack';
+import customerImg1 from '../../../../assets/images/sidebar-bg2.png';
 const cx = classNames.bind(styles);
 
 function SideBar() {
@@ -27,117 +30,16 @@ function SideBar() {
                     <div className={cx('slider-kh', 'owl-carousel', 'owl-theme', 'owl-loaded', 'owl-drag')}>
                         <div className={cx('owl-stage-outer')}>
                             <div className={cx('owl-stage')}>
-                                <div className={cx('owl-item', 'cloned')}>
-                                    <div className={cx('item-kh')}>
-                                        <div className={cx('img-avatar')}>
-                                            <img></img>
-                                        </div>
-                                        <div className={cx('rating')}>
-                                            <span className={cx('fa fa-star', 'checked')}></span>
-                                            <span className={cx('fa fa-star', 'checked')}></span>
-                                            <span className={cx('fa fa-star', 'checked')}></span>
-                                            <span className={cx('fa fa-star', 'checked')}></span>
-                                        </div>
-                                        <div className={cx('des-kh')}>
-                                            Chuyên tư vấn giải pháp cho các doanh nghiệp lớn, vừa nhỏ trong các lĩnh vực
-                                            như: tài chính, chứng khoán, luật, đầu tư…
-                                        </div>
-                                        <p className={cx('name-kh')}>Khách hàng</p>
-                                    </div>
-                                </div>
-                                <div className={cx('owl-item', 'cloned')}>
-                                    <div className={cx('item-kh')}>
-                                        <div className={cx('img-avatar')}>
-                                            <img></img>
-                                        </div>
-                                        <div className={cx('rating')}>
-                                            <span className={cx('fa fa-star', 'checked')}></span>
-                                            <span className={cx('fa fa-star', 'checked')}></span>
-                                            <span className={cx('fa fa-star', 'checked')}></span>
-                                            <span className={cx('fa fa-star', 'checked')}></span>
-                                        </div>
-                                        <div className={cx('des-kh')}>
-                                            Chuyên tư vấn giải pháp cho các doanh nghiệp lớn, vừa nhỏ trong các lĩnh vực
-                                            như: tài chính, chứng khoán, luật, đầu tư…
-                                        </div>
-                                        <p className={cx('name-kh')}>Khách hàng</p>
-                                    </div>
-                                </div>
-                                <div className={cx('owl-item', 'active')}>
-                                    <div className={cx('item-kh')}>
-                                        <div className={cx('img-avatar')}>
-                                            <img></img>
-                                        </div>
-                                        <div className={cx('rating')}>
-                                            <span className={cx('fa fa-star', 'checked')}></span>
-                                            <span className={cx('fa fa-star', 'checked')}></span>
-                                            <span className={cx('fa fa-star', 'checked')}></span>
-                                            <span className={cx('fa fa-star', 'checked')}></span>
-                                        </div>
-                                        <div className={cx('des-kh')}>
-                                            Chuyên tư vấn giải pháp cho các doanh nghiệp lớn, vừa nhỏ trong các lĩnh vực
-                                            như: tài chính, chứng khoán, luật, đầu tư…
-                                        </div>
-                                        <p className={cx('name-kh')}>Khách hàng</p>
-                                    </div>
-                                </div>
-                                <div className={cx('owl-item')}>
-                                    <div className={cx('item-kh')}>
-                                        <div className={cx('img-avatar')}>
-                                            <img></img>
-                                        </div>
-                                        <div className={cx('rating')}>
-                                            <span className={cx('fa fa-star', 'checked')}></span>
-                                            <span className={cx('fa fa-star', 'checked')}></span>
-                                            <span className={cx('fa fa-star', 'checked')}></span>
-                                            <span className={cx('fa fa-star', 'checked')}></span>
-                                        </div>
-                                        <div className={cx('des-kh')}>
-                                            Chuyên tư vấn giải pháp cho các doanh nghiệp lớn, vừa nhỏ trong các lĩnh vực
-                                            như: tài chính, chứng khoán, luật, đầu tư…
-                                        </div>
-                                        <p className={cx('name-kh')}>Khách hàng</p>
-                                    </div>
-                                </div>
-                                <div className={cx('owl-item', 'cloned')}>
-                                    <div className={cx('item-kh')}>
-                                        <div className={cx('img-avatar')}>
-                                            <img></img>
-                                        </div>
-                                        <div className={cx('rating')}>
-                                            <span className={cx('fa fa-star', 'checked')}></span>
-                                            <span className={cx('fa fa-star', 'checked')}></span>
-                                            <span className={cx('fa fa-star', 'checked')}></span>
-                                            <span className={cx('fa fa-star', 'checked')}></span>
-                                        </div>
-                                        <div className={cx('des-kh')}>
-                                            Chuyên tư vấn giải pháp cho các doanh nghiệp lớn, vừa nhỏ trong các lĩnh vực
-                                            như: tài chính, chứng khoán, luật, đầu tư…
-                                        </div>
-                                        <p className={cx('name-kh')}>Khách hàng</p>
-                                    </div>
-                                </div>
-                                <div className={cx('owl-item', 'cloned')}>
-                                    <div className={cx('item-kh')}>
-                                        <div className={cx('img-avatar')}>
-                                            <img></img>
-                                        </div>
-                                        <div className={cx('rating')}>
-                                            <span className={cx('fa fa-star', 'checked')}></span>
-                                            <span className={cx('fa fa-star', 'checked')}></span>
-                                            <span className={cx('fa fa-star', 'checked')}></span>
-                                            <span className={cx('fa fa-star', 'checked')}></span>
-                                        </div>
-                                        <div className={cx('des-kh')}>
-                                            Chuyên tư vấn giải pháp cho các doanh nghiệp lớn, vừa nhỏ trong các lĩnh vực
-                                            như: tài chính, chứng khoán, luật, đầu tư…
-                                        </div>
-                                        <p className={cx('name-kh')}>Khách hàng</p>
-                                    </div>
-                                </div>
+                                <Croursel showArrows={false} pagination={false}>
+                                    <FeedBack content="Chuyên tư vấn giải pháp cho các doanh nghiệp lớn, vừa nhỏ trong các lĩnh vực như: tài chính, chứng khoán, luật, đầu tư…" image={customerImg1} name="Khách hàng" />
+                                    <FeedBack content="Chuyên tư vấn giải pháp cho các doanh nghiệp lớn, vừa nhỏ trong các lĩnh vực như: tài chính, chứng khoán, luật, đầu tư…" image={customerImg1} name="Khách hàng" />
+                                    <FeedBack content="Chuyên tư vấn giải pháp cho các doanh nghiệp lớn, vừa nhỏ trong các lĩnh vực như: tài chính, chứng khoán, luật, đầu tư…" image={customerImg1} name="Khách hàng" />
+                                    <FeedBack content="Chuyên tư vấn giải pháp cho các doanh nghiệp lớn, vừa nhỏ trong các lĩnh vực như: tài chính, chứng khoán, luật, đầu tư…" image={customerImg1} name="Khách hàng" />
+                                    <FeedBack content="Chuyên tư vấn giải pháp cho các doanh nghiệp lớn, vừa nhỏ trong các lĩnh vực như: tài chính, chứng khoán, luật, đầu tư…" image={customerImg1} name="Khách hàng" />
+                                </Croursel>
                             </div>
                         </div>
-                        <div className={cx('owl-nav', 'disabled')}>
+                        {/* <div className={cx('owl-nav', 'disabled')}>
                             <button type="button" role="presentation" className={cx('owl-prev')}>
                                 <span aria-label="Previous"></span>
                             </button>
@@ -145,7 +47,7 @@ function SideBar() {
                                 <span aria-label="Previous"></span>
                             </button>
                         </div>
-                        <div className={cx('owl-dots', 'disabled')}></div>
+                        <div className={cx('owl-dots', 'disabled')}></div> */}
                     </div>
                 </div>
             </div>

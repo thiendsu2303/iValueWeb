@@ -59,13 +59,13 @@ function Footer() {
                             </div>
                             <div className={cx('col-md-4')}>
                                 <div className={cx('social-ft')}>
-                                    <a href="#" className={cx('')}>
+                                    <a href="/" className={cx('')} title='facebook'>
                                         <i className={cx('fab fa-facebook-f')}></i>
                                     </a>
-                                    <a href="#" className={cx('')}>
+                                    <a href="/" className={cx('')} title='twitter'>
                                         <i className={cx('fab fa-twitter')}></i>
                                     </a>
-                                    <a href="#" className={cx('')}>
+                                    <a href="/" className={cx('')} title='linkedin'>
                                         <i className={cx('fab fa-linkedin')}></i>
                                     </a>
                                 </div>

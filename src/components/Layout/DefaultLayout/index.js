@@ -26,7 +26,7 @@ function DefaultLayout({ children }) {
                 {/* <div className="content">{children}</div> */}
             </div>
             <Footer />
-            <a id="back-to-top" href="#" className={cx('btn', 'btn-primary', 'btn-lg', 'back-to-top')} role="button">
+            <a id="back-to-top" href="/" className={cx('btn', 'btn-primary', 'btn-lg', 'back-to-top')} role="button">
                 <span className={cx('glyphicon', 'glyphicon-chevron-up')}></span>
             </a>
         </div>

@@ -1,6 +1,6 @@
 .col-md-3 {
     position: relative;
-    width: 25%;
+    width: 24%;
     min-height: 1px;
     padding: 0 15px;
 }
@@ -86,3 +86,32 @@
     height: 100%;
     box-shadow: inset -0.01em -0.1em 0 0 rgb(0 0 0 / 15%);
 }
+
+// .owl-carousel {
+//     display: none;
+//     width: 100%;
+// }
+
+// .khachhangdanggia {
+//     display: block;
+//     position: relative;
+// }
+
+// .owl-carousel.owl-loaded {
+//     display: block;
+//     float: left;
+// }
+
+// .owl-carousel .owl-stage-outer {
+//     position: relative;
+//     display: block;
+//     float: left;
+//     overflow: hidden;
+//     -webkit-transform: translate3d(0,0,0);
+// }
+
+// .owl-carousel .owl-stage-outer .owl-stage {
+//     width: 1752px;
+//     transform: translate3d(-1168px, 0px, 0px);
+//     transition: all 0.25s ease 0s;
+// }

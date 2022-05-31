@@ -49,13 +49,13 @@ function Header() {
                             <div className={cx('social')}>
                                 <div className={cx('social-top')}></div>
                                 <div className={cx('social-bottom')}>
-                                    <a href="#">
+                                    <a href="/" title='facebook'>
                                         <i className={cx('fab', 'fa-facebook-f')}></i>
                                     </a>
-                                    <a href="#">
+                                    <a href="/" title='twitter'>
                                         <i className={cx('fab', 'fa-twitter')}></i>
                                     </a>
-                                    <a href="#">
+                                    <a href="/" title='linkedin'>
                                         <i className={cx('fab', 'fa-linkedin')}></i>
                                     </a>
                                 </div>
