@@ -1,5 +1,15 @@
+import classNames from 'classnames/bind';
+import styles from './gioithieu.module.scss';
+import { DefaultLayout } from '~/components/Layout';
+
+const cx = classNames.bind(styles);
+
 function gioithieu() {
-    return <h2>Gioi thieu</h2>;
+    return (
+        <div>
+            <DefaultLayout />
+        </div>
+    );
 }
 
 export default gioithieu;
