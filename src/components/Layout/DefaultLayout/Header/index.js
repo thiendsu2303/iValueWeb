@@ -4,12 +4,12 @@ import logo from '../../../../assets/images/logo.jpg';
 import { useState } from 'react';
 
 const cx = classNames.bind(styles);
-// console.log(images);
+
 function Header() {
     const [Header, setHeader] = useState(false);
 
     const afterScroll = () => {
-        if(window.scrollY >= 100) {
+        if(window.scrollY >= 50) {
             setHeader(true);
         }
         else {

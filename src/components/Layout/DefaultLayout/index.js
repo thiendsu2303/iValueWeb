@@ -2,6 +2,7 @@ import classNames from 'classnames/bind';
 import Header from './Header';
 import SideBar from './SideBar';
 import Footer from './Footer';
+import Sponsor from './Sponsor';
 import styles from './DefaultLayout.module.scss';
 
 const cx = classNames.bind(styles);
@@ -24,6 +25,8 @@ function DefaultLayout({ children }) {
                 <div className="clear40"></div>
                 <SideBar />
                 {/* <div className="content">{children}</div> */}
+                <Sponsor />
+                <div className="clear40"></div>
             </div>
             <Footer />
             <a id="back-to-top" href="/" className={cx('btn', 'btn-primary', 'btn-lg', 'back-to-top')} role="button">

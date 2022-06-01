@@ -1,0 +1,67 @@
+.carousel {
+    position: relative;
+    height: 120px;
+    width: 60%;
+    margin: auto;
+    overflow: hidden;
+    perspective: 100px;
+}
+
+.carousel-track {
+    width: calc(150px * 42);
+    height: 100%;
+    display: flex;
+    animation: scroll 15s linear infinite;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(calc(-150px * 21));
+    }
+}
+
+.carousel-box {
+    width: 150px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+}
+
+.carousel-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel-container img {
+    width: 100%;
+    object-fit: fill;
+}
+
+// .carousel::before,
+// .carousel::after {
+//     content: ' ';
+//     background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+//     height: 100%;
+//     position: absolute;
+//     width: 15%;
+//     z-index: 2;
+// }
+
+// .carousel::before {
+//     left: 0;
+//     top: 0;
+// }
+
+// .carousel::after {
+//     right: 0;
+//     top: 0;
+//     transform: rotateZ(180deg);
+// }
