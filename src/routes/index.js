@@ -6,10 +6,10 @@ import lienhe from '~/pages/lienhe';
 
 const publicRoutes = [
     { path: '/', component: Home },
-    { path: '/gioithieu', component: gioithieu },
-    { path: '/dichvu', component: dichvu },
-    { path: '/duan', component: duan },
-    { path: '/lienhe', component: lienhe },
+    { path: '/gioi-thieu', component: gioithieu },
+    { path: '/dich-vu', component: dichvu },
+    { path: '/du-an', component: duan },
+    { path: '/lien-he', component: lienhe },
 ];
 
 const privateRoutes = [];
