@@ -141,14 +141,16 @@ header.header-fixed {
     display: block;
     float: left;
     height: 100%;
-    padding: 0 30px;
     margin: 0 20px;
     font-weight: 700;
     font-size: 15px;
 }
 
 .ul-main-menu > li a {
+    display: block;
+    height: 100%;
     line-height: 40px;
+    padding: 0 30px;
 }
 
 .ul-main-menu .header-home {
