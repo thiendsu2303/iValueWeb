@@ -64,7 +64,7 @@ function Header() {
                     </div>
                 </div>
                 <div className={cx('header-bottom')}>
-                    <div className={cx('header-bottom-container')}>
+                    <div className={cx('container')}>
                         <ul className={cx('ul-main-menu')}>
                             <li className={cx('header-home')}>
                                 <a href="/">

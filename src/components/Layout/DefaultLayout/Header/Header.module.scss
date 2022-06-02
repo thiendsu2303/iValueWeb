@@ -35,22 +35,24 @@ header.header-fixed {
     position: relative;
     width: 100%;
     height: 102px;
-    // background-color: white;
     padding: 20px 0;
     display: block;
     margin-right: auto;
     margin-left: auto;
 }
 
-.header-top .container {
-    width: 1330px;
-    height: 66.42px;
-    background-color: white;
+.container {
+    width: 87.5%;
     display: block;
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
+}
+
+.header-top .container {
+    height: 66.42px;
+    background-color: white;
 }
 
 .header-top .container .flex-box {
@@ -119,14 +121,8 @@ header.header-fixed {
     background-color: var(--primary-color);
 }
 
-.header-bottom .header-bottom-container {
-    width: 1330px;
+.header-bottom .container {
     height: 100%;
-    display: block;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
 }
 
 .ul-main-menu {
