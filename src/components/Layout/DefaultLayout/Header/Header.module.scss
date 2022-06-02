@@ -42,7 +42,7 @@ header.header-fixed {
 }
 
 .container {
-    width: 87.5%;
+    width: 1330px;
     display: block;
     padding-right: 15px;
     padding-left: 15px;
@@ -142,11 +142,14 @@ header.header-fixed {
     font-size: 15px;
 }
 
+.ul-main-menu > li > a {
+    padding: 0 30px;
+}
+
 .ul-main-menu > li a {
     display: block;
     height: 100%;
     line-height: 40px;
-    padding: 0 30px;
 }
 
 .ul-main-menu .header-home {
