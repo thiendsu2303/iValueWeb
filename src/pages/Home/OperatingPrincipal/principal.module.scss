@@ -1,0 +1,48 @@
+div {
+    display: block;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+.col-md-6 {
+    margin-left: 50%;
+    padding: 0!important;
+}
+
+.mainPrincipalOperation {
+    overflow: auto;
+    background: url(https://dbk.vn/uploads/ckfinder/images/1-content/anh-dep-1.jpg) center center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    right: 0px;
+    line-height: 1.42857143;
+}
+
+.principalBlock {
+    margin: 0px;
+    background: #084B2A;
+    padding: 40px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.principalTitle {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.principalList > li {
+    margin-bottom: 25px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.principalList > li:last-child {
+    margin: 0px;
+}
