@@ -1,0 +1,121 @@
+.main-gioithieu {
+    position: relative;
+    width: 100%;
+    // height: auto;
+    display: block;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1330px;
+    display: block;
+    box-sizing: border-box;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row {
+    display: block;
+    box-sizing: border-box;
+    height: auto;
+    overflow: hidden;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.col-md-4 {
+    display: block;
+    width: 33.33333333%;
+    height: auto;
+}
+
+.tit-pub {
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.editer p {
+    margin-bottom: 10px;
+}
+
+.a-lienhe {
+    display: inline-block;
+    font-weight: 700;
+    color: #fff;
+    background: var(--primary-color);
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.a-lienhe:hover {
+    color: var(--primary-color);
+    background: #fff;
+    box-shadow: 0px 1px 5px 1px gray;
+}
+
+.a-lienhe i {
+    margin-left: 5px;
+    font-size: 12px;
+}
+
+.fas {
+    font-weight: 900;
+}
+
+.col-md-8 {
+    display: block;
+    width: 66.66666667%;
+    position: relative;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.flex-wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-md-6 {
+    width: 50%;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.list-gt {
+    margin-bottom: 20px;
+}
+
+.eff-scale {
+    overflow: hidden;
+    display: block;
+}
+
+.eff-scale img {
+    transform: scale(1);
+    width: 100%;
+    transition: all 0.3s;
+    vertical-align: middle;
+    border: 0;
+}
+
+.eff-scale img:hover {
+    transform: scale(1.2);
+}
+
+.info-gt {
+    margin-top: 15px;
+}
+
+.name-gt {
+    margin: 0;
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 18px;
+}
