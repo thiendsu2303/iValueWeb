@@ -5,10 +5,10 @@ import duan from '~/pages/duan';
 import lienhe from '~/pages/lienhe';
 
 const publicRoutes = [
-    { path: '/', component: Home },
-    { path: '/gioi-thieu', component: gioithieu },
+    { path: '/', component: Home, layout: Home },
+    { path: '/gioi-thieu', component: gioithieu},
     { path: '/dich-vu', component: dichvu },
-    { path: '/du-an', component: duan },
+    { path: '/du-an', component: duan},
     { path: '/lien-he', component: lienhe },
 ];
 

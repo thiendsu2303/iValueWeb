@@ -3,8 +3,10 @@ import styles from './Home.module.scss';
 import { DefaultLayout } from '~/components/Layout';
 import PrincipalOperation from './OperatingPrincipal';
 import Header from '~/components/Layout/DefaultLayout/Header';
+import Slider from './Slider';
 import Footer from '~/components/Layout/DefaultLayout/Footer';
 import Sponsor from '~/components/Layout/DefaultLayout/Sponsor';
+import BackToTop from '~/components/Layout/DefaultLayout/BackToTop';
 
 const cx = classNames.bind(styles);
 
@@ -12,6 +14,7 @@ function Home() {
     return (
         <div>
             <Header />
+            <Slider />
             <div className={cx('main-banner')}></div>
             <div className={cx('main-gioithieu', 'aos-init', 'aos-animate')}>
                 <div className={cx('clear40')}></div>
@@ -233,6 +236,7 @@ function Home() {
             <Sponsor />
             <div className={cx('clear40')}></div>
             <Footer />
+            <BackToTop />
         </div>
     );
 }

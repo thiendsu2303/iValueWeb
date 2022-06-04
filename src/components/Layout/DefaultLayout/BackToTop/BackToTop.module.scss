@@ -1,0 +1,31 @@
+.back-to-top {
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #99B1A4 !important;
+    border: none !important;
+    border-radius: 50% !important;
+    height: 50px;
+    padding: 0;
+    width: 50px;
+    z-index: 999;
+}
+
+.back-to-top span {
+    position: relative;
+    top: 12.5px;
+    left: 1.5px;
+}
+
+.glyphicon {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
