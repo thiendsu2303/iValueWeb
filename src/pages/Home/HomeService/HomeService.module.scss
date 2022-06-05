@@ -1,0 +1,85 @@
+.main-dichvu {
+    overflow: hidden;
+}
+
+.container {
+    width: var(--container-width);
+    display: block;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.tit-pub {
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.center {
+    text-align: center;
+}
+
+.flex-wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.col-md-4 {
+    width: 33.33333333%;
+    float: left;
+    position: relative;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.list-gt {
+    margin-bottom: 20px;
+}
+
+.eff-scale {
+    overflow: hidden;
+    display: block;
+}
+
+.eff-scale a img {
+    transform: scale(1);
+    width: 100%;
+    transition: all 0.3s;
+    vertical-align: middle;
+    border: 0;
+}
+
+.eff-scale a img:hover {
+    transform: scale(1.2);
+}
+
+.info-gt {
+    margin-top: 15px;
+}
+
+.name-gt {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.clblack {
+    color: #000;
+}
+
+.name-gt a:hover {
+    color: var(--primary-color);
+}
