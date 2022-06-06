@@ -3,7 +3,7 @@
 
 :root {
     --primary-color: #084b2a;
-    --container-width: 1330px;
+    --container-width: 1230px;
 }
 
 * {
@@ -30,6 +30,7 @@ body {
 }
 
 .container {
+    width: var(--container-width);
     display: block;
     padding-right: 15px;
     padding-left: 15px;

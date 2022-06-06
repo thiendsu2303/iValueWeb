@@ -7,7 +7,7 @@
 }
 
 .container {
-    width: 1330px;
+    width: var(--container-width);
     display: block;
     box-sizing: border-box;
     padding-right: 15px;

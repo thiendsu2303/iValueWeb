@@ -9,7 +9,7 @@ const publicRoutes = [
     { path: '/gioi-thieu', component: gioithieu},
     { path: '/dich-vu', component: dichvu },
     { path: '/du-an', component: duan},
-    { path: '/lien-he', component: lienhe },
+    { path: '/lien-he', component: lienhe, layout: lienhe },
 ];
 
 const privateRoutes = [];

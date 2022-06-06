@@ -1,5 +1,12 @@
 import classNames from 'classnames/bind';
 import styles from './HomeService.module.scss';
+import img1 from '../../../assets/images/homeservice/service-img1.jpeg';
+import img2 from '../../../assets/images/homeservice/service-img2.jpeg';
+import img3 from '../../../assets/images/homeservice/service-img3.jpg';
+import img4 from '../../../assets/images/homeservice/service-img4.jpeg';
+import img5 from '../../../assets/images/homeservice/service-img5.jpg';
+import img6 from '../../../assets/images/homeservice/service-img6.jpg';
+import img7 from '../../../assets/images/homeservice/service-img7.jpg';
 
 const cx = classNames.bind(styles);
 
@@ -15,7 +22,7 @@ const HomeService = () => {
                         <div className={cx('list-gt', 'aos-init', 'aos-animate')}>
                             <div className={cx('eff-scale')}>
                                 <a href="#">
-                                    <img src="https://www.sbb.ch/content/dam/internet/sharedimages/personen/GA-Hund.jpg/_jcr_content/renditions/cq5dam.web.1280.1280.jpeg"></img>
+                                    <img src={img1}></img>
                                 </a>
                             </div>
                             <div className={cx('info-gt')}>
@@ -31,7 +38,7 @@ const HomeService = () => {
                         <div className={cx('list-gt', 'aos-init', 'aos-animate')}>
                             <div className={cx('eff-scale')}>
                                 <a href="#">
-                                    <img src="https://www.sbb.ch/content/dam/internet/sharedimages/personen/GA-Hund.jpg/_jcr_content/renditions/cq5dam.web.1280.1280.jpeg"></img>
+                                    <img src={img2}></img>
                                 </a>
                             </div>
                             <div className={cx('info-gt')}>
@@ -47,13 +54,13 @@ const HomeService = () => {
                         <div className={cx('list-gt', 'aos-init', 'aos-animate')}>
                             <div className={cx('eff-scale')}>
                                 <a href="#">
-                                    <img src="https://www.sbb.ch/content/dam/internet/sharedimages/personen/GA-Hund.jpg/_jcr_content/renditions/cq5dam.web.1280.1280.jpeg"></img>
+                                    <img src={img3}></img>
                                 </a>
                             </div>
                             <div className={cx('info-gt')}>
                                 <h4 className={cx('name-gt')}>
                                     <a href="#" className={cx('clblack', 'text-uppercase')}>
-                                        THẨM ĐỊNH GIÁ DOANH NGHIỆP
+                                        THẨM ĐỊNH GIÁ TRỊ DOANH NGHIỆP
                                     </a>
                                 </h4>
                             </div>
@@ -63,7 +70,7 @@ const HomeService = () => {
                         <div className={cx('list-gt', 'aos-init', 'aos-animate')}>
                             <div className={cx('eff-scale')}>
                                 <a href="#">
-                                    <img src="https://www.sbb.ch/content/dam/internet/sharedimages/personen/GA-Hund.jpg/_jcr_content/renditions/cq5dam.web.1280.1280.jpeg"></img>
+                                    <img src={img4}></img>
                                 </a>
                             </div>
                             <div className={cx('info-gt')}>
@@ -79,7 +86,7 @@ const HomeService = () => {
                         <div className={cx('list-gt', 'aos-init', 'aos-animate')}>
                             <div className={cx('eff-scale')}>
                                 <a href="#">
-                                    <img src="https://www.sbb.ch/content/dam/internet/sharedimages/personen/GA-Hund.jpg/_jcr_content/renditions/cq5dam.web.1280.1280.jpeg"></img>
+                                    <img src={img5}></img>
                                 </a>
                             </div>
                             <div className={cx('info-gt')}>
@@ -95,7 +102,7 @@ const HomeService = () => {
                         <div className={cx('list-gt', 'aos-init', 'aos-animate')}>
                             <div className={cx('eff-scale')}>
                                 <a href="#">
-                                    <img src="https://www.sbb.ch/content/dam/internet/sharedimages/personen/GA-Hund.jpg/_jcr_content/renditions/cq5dam.web.1280.1280.jpeg"></img>
+                                    <img src={img6}></img>
                                 </a>
                             </div>
                             <div className={cx('info-gt')}>
@@ -111,7 +118,7 @@ const HomeService = () => {
                         <div className={cx('list-gt', 'aos-init', 'aos-animate')}>
                             <div className={cx('eff-scale')}>
                                 <a href="#">
-                                    <img src="https://www.sbb.ch/content/dam/internet/sharedimages/personen/GA-Hund.jpg/_jcr_content/renditions/cq5dam.web.1280.1280.jpeg"></img>
+                                    <img src={img7}></img>
                                 </a>
                             </div>
                             <div className={cx('info-gt')}>
