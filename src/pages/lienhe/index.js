@@ -77,12 +77,15 @@ function LienHePage() {
                             </div>
                     </div>
                 </div>
-
-                <div class="clear40"></div>
-                <div className= {cx("ggmap")}>
-                    {/* <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15678.476369694883!2d106.7054415!3d10.7638112!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x566a3d4b32eeccae!2zQ2FvIOG7kGMgxJBpbmggTOG7hQ!5e0!3m2!1svi!2s!4v1563174414915!5m2!1svi!2s" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe> */}
-                </div>
             </div>
+
+            <div className = {cx('distance50')}></div>
+
+            <div className= {cx("ggmap")}>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57508.93082445637!2d106.68804588171352!3d10.779397636975181!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f47df3d1ecf%3A0x2b9938216230e217!2zVmluY29tIENlbnRlciAoVmluY29tIMSQ4buTbmcgS2jhu59pKQ!5e1!3m2!1svi!2s!4v1621419873227!5m2!1svi!2s" width="600" height="450" frameborder="0"></iframe>
+            </div>
+
+            <div className = 'clear40'></div>
 
             <Sponsor />
             <Footer />
