@@ -11,7 +11,7 @@ function LienHePage() {
     return (
         <div>
             <Header />
-
+            
             <div className={cx('bodyLienHe')}>
                 <div className={cx('bannerPage')}>
                     <img
@@ -22,106 +22,108 @@ function LienHePage() {
                     />
                     <h3 className={cx('titleLienHe')}>Liên Hệ</h3>
                 </div>
-
-                <div className={cx('LienHeProcess')}>
-                    <div className="clear40"></div>
-                    <div className={cx('interactiveProcess')}>
-                        <div className={cx('col-md-6')} data-aos="faded-right">
-                            <h3 className={cx('bold', 'nomargin', 'text-uppercase')}>THÔNG TIN LIÊN HỆ</h3>
-                            <div className="clear20"></div>
-                            <div className={cx('ivalueAddress')}>
-                                <p>
-                                    <i class="fas fa-map-marker-alt"></i> L17-11, Tòa nhà Vincom Center, 72 Lê Thánh
-                                    Tôn, Phường Bến Nghé, Quận 1, Thành phố Hồ Chí Minh
-                                </p>
-                                <p>
-                                    <i class="fas fa-phone"></i> 0926 37 9999
-                                </p>
-                                <p>
-                                    <i class="fas fa-envelope-open-text"></i> tdg@ivalue.com.vn
-                                </p>
-                            </div>
-
-                            <div className="clear10"></div>
-
-                            <div className={cx('social-lh', 'flex')}>
-                                <a href="#" className={cx('so-fb')}>
-                                    <i className="fab fa-facebook-f"></i>
-                                </a>
-                                <a href="#" className={cx('so-tw')}>
-                                    <i className="fab fa-twitter"></i>
-                                </a>
-                                <a href="#" className={cx('so-in')}>
-                                    <i className="fab fa-linkedin"></i>
-                                </a>
-
+                        
+                <div className = {cx('container')}>
+                    <div className={cx('LienHeProcess')}>
+                        <div className="clear40"></div>
+                        <div className={cx('interactiveProcess')}>
+                            <div className={cx('col-md-6')} data-aos="faded-right">
+                                <h3 className={cx('bold', 'nomargin', 'text-uppercase')}>THÔNG TIN LIÊN HỆ</h3>
                                 <div className="clear20"></div>
-                            </div>
-                        </div>
+                                <div className={cx('ivalueAddress')}>
+                                    <p>
+                                        <i class="fas fa-map-marker-alt"></i> L17-11, Tòa nhà Vincom Center, 72 Lê Thánh
+                                        Tôn, Phường Bến Nghé, Quận 1, Thành phố Hồ Chí Minh
+                                    </p>
+                                    <p>
+                                        <i class="fas fa-phone"></i> 0926 37 9999
+                                    </p>
+                                    <p>
+                                        <i class="fas fa-envelope-open-text"></i> tdg@ivalue.com.vn
+                                    </p>
+                                </div>
 
-                        <div className={cx('col-md-6')} data-aos="fade-left">
-                            <form method="POST" action="">
-                                <div className="col-md-6">
-                                    <div className="form-group">
-                                        <input
-                                            type="text"
-                                            className={cx('form-control')}
-                                            placeholder="Họ và tên"
-                                            name="name"
-                                            required
-                                        />
+                                <div className="clear10"></div>
+
+                                <div className={cx('social-lh', 'flex')}>
+                                    <a href="#" className={cx('so-fb')}>
+                                        <i className="fab fa-facebook-f"></i>
+                                    </a>
+                                    <a href="#" className={cx('so-tw')}>
+                                        <i className="fab fa-twitter"></i>
+                                    </a>
+                                    <a href="#" className={cx('so-in')}>
+                                        <i className="fab fa-linkedin"></i>
+                                    </a>
+
+                                    <div className="clear20"></div>
+                                </div>
+                            </div>
+
+                            <div className={cx('col-md-6')} data-aos="fade-left">
+                                <form method="POST" action="">
+                                    <div className="col-md-6">
+                                        <div className="form-group">
+                                            <input
+                                                type="text"
+                                                className={cx('form-control')}
+                                                placeholder="Họ và tên"
+                                                name="name"
+                                                required
+                                            />
+                                        </div>
                                     </div>
-                                </div>
-                                <div className="col-md-6">
-                                    <div className={cx('form-group')}>
-                                        <input
-                                            type="email"
-                                            className={cx('form-control')}
-                                            placeholder="Email"
-                                            name="email"
-                                            required
-                                        />
+                                    <div className="col-md-6">
+                                        <div className={cx('form-group')}>
+                                            <input
+                                                type="email"
+                                                className={cx('form-control')}
+                                                placeholder="Email"
+                                                name="email"
+                                                required
+                                            />
+                                        </div>
                                     </div>
-                                </div>
-                                <div className="col-md-6">
-                                    <div className={cx('form-group')}>
-                                        <input
-                                            type="text"
-                                            className={cx('form-control')}
-                                            placeholder="Số điện thoại"
-                                            name="phone"
-                                            required
-                                        />
+                                    <div className="col-md-6">
+                                        <div className={cx('form-group')}>
+                                            <input
+                                                type="text"
+                                                className={cx('form-control')}
+                                                placeholder="Số điện thoại"
+                                                name="phone"
+                                                required
+                                            />
+                                        </div>
                                     </div>
-                                </div>
-                                <div className="col-md-6">
-                                    <div className={cx('form-group')}>
-                                        <input
-                                            type="text"
-                                            className={cx('form-control')}
-                                            placeholder="Địa chỉ"
-                                            name="address"
-                                            required
-                                        />
+                                    <div className="col-md-6">
+                                        <div className={cx('form-group')}>
+                                            <input
+                                                type="text"
+                                                className={cx('form-control')}
+                                                placeholder="Địa chỉ"
+                                                name="address"
+                                                required
+                                            />
+                                        </div>
                                     </div>
-                                </div>
-                                <div className="col-md-12">
-                                    <div class="form-group">
-                                        <textarea
-                                            className={cx('form-control')}
-                                            rows="4"
-                                            placeholder="Lời nhắn"
-                                            name="message"
-                                            required
-                                        />
+                                    <div className="col-md-12">
+                                        <div class="form-group">
+                                            <textarea
+                                                className={cx('form-control')}
+                                                rows="4"
+                                                placeholder="Lời nhắn"
+                                                name="message"
+                                                required
+                                            />
+                                        </div>
                                     </div>
-                                </div>
-                                <div className={cx('center')}>
-                                    <button className={cx('a-lienhe')} type="submit" name="lienhe">
-                                        GỬI
-                                    </button>
-                                </div>
-                            </form>
+                                    <div className={cx('center')}>
+                                        <button className={cx('a-lienhe')} type="submit" name="lienhe">
+                                            GỬI
+                                        </button>
+                                    </div>
+                                </form>
+                            </div>
                         </div>
                     </div>
                 </div>
