@@ -6,6 +6,7 @@
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
+    overflow: hidden;
 }
 
 .bannerPage {
@@ -134,15 +135,10 @@ button.a-lienhe {
     display: inline-block;
     font-weight: 700;
     color: #fff;
-    background: #0170a7;
+    background: #107140;
     padding: 10px 20px;
     border-radius: 5px;
     margin-right: 20px;
-}
-
-.distance50 {
-    width: 100%;
-    height: 300px;
 }
 
 .ggmap {

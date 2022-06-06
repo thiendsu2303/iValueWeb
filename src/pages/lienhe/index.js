@@ -129,7 +129,7 @@ function LienHePage() {
                 </div>
             </div>
 
-            <div className={cx('distance50')}></div>
+            <div className={cx('clear40')}></div>
 
             <div className={cx('ggmap')}>
                 <iframe
