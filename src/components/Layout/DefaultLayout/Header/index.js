@@ -9,13 +9,12 @@ function Header() {
     const [Header, setHeader] = useState(false);
 
     const afterScroll = () => {
-        if(window.scrollY >= 50) {
+        if (window.scrollY >= 50) {
             setHeader(true);
-        }
-        else {
+        } else {
             setHeader(false);
         }
-    }
+    };
     window.addEventListener('scroll', afterScroll);
     return (
         <div>
@@ -49,13 +48,13 @@ function Header() {
                             <div className={cx('social')}>
                                 <div className={cx('social-top')}></div>
                                 <div className={cx('social-bottom')}>
-                                    <a href="/" title='facebook'>
+                                    <a href="/" title="facebook">
                                         <i className={cx('fab', 'fa-facebook-f')}></i>
                                     </a>
-                                    <a href="/" title='twitter'>
+                                    <a href="/" title="twitter">
                                         <i className={cx('fab', 'fa-twitter')}></i>
                                     </a>
-                                    <a href="/" title='linkedin'>
+                                    <a href="/" title="linkedin">
                                         <i className={cx('fab', 'fa-linkedin')}></i>
                                     </a>
                                 </div>
@@ -75,7 +74,7 @@ function Header() {
                                 <a href="/gioi-thieu">GIỚI THIỆU</a>
                             </li>
                             <li className={cx('header-service')}>
-                                <a href="#">
+                                <a href="dich-vu">
                                     DỊCH VỤ
                                     <i className={cx('fas', 'fa-chevron-down')}></i>
                                 </a>
