@@ -25,32 +25,26 @@
 .main-content {
     display: block;
     width: 100%;
-    overflow: hidden;
+    // overflow: hidden;
+    height: 400px;
 }
 
 .main-content .content-img {
-    width: 30%;
-    position: relative;
-    padding-top: 0;
-    padding-bottom: 20px;
+    width: 50%;
+    height: 100%;
 }
 
 .main-content .content-img img {
     width: 100%;
+    height: 100%;
 }
 
 .main-content .content-text {
-    width: 70%;
-    padding-top: 10px;
+    width: 50%;
 }
 
 .right {
     float: right;
-}
-
-.content-img.right {
-    padding-left: 30px;
-    padding-right: 5px;
 }
 
 .right img {
@@ -59,15 +53,15 @@
 
 .content-text.right {
     text-align: right;
+    padding-left: 10px;
+}
+
+.content-text.left {
+    padding-right: 10px;
 }
 
 .left {
     float: left;
-}
-
-.content-img.left {
-    padding-right: 30px;
-    padding-left: 5px;
 }
 
 .content-text .text {
