@@ -21,3 +21,25 @@
     overflow: hidden;
     padding: 0 30px;
 }
+
+.main-content {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+}
+
+.main-content .content-img {
+    width: 40%;
+}
+
+.main-content .content-text {
+    width: 60%;
+}
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}

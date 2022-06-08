@@ -2,8 +2,6 @@ import classNames from 'classnames/bind';
 import styles from './Header.module.scss';
 import logo from '../../../../assets/images/logo.jpg';
 import { useState } from 'react';
-import { Anchor } from 'antd';
-const { Link } = Anchor;
 
 const cx = classNames.bind(styles);
 
