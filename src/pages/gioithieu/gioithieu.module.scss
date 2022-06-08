@@ -39,3 +39,36 @@
     text-align: justify;
     padding: 0px 30px;
 }
+
+.introductionParagraph:first-child {
+    font-size: 20px;
+}
+
+.col-md-10 {
+    width: 100%;
+    padding: 0px 30px;
+}
+
+.principalBlock h3 {
+    margin-bottom: 15px;
+}
+
+.principalList li {
+    list-style-type: disc;
+    margin-bottom: 5px;
+}
+
+.ivalueTarget {
+    // padding: 0px 30px;
+    width: 100%;
+}
+
+.listIntroduction {
+    padding: 0px 30px;
+}
+
+.listIntroduction li {
+    list-style-type: disc;
+    margin-bottom: 5px;
+    margin-left: 17px;
+}

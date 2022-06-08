@@ -30,39 +30,76 @@ function gioithieu() {
                                 <div className = 'clear40'></div>
 
                                 <div className = {cx('introductionText')}>
-                                    <p className = {cx('introductionParagraph')}>Lời đầu tiên <strong>INTERLINK </strong>xin gửi đến Quý Khách hàng lời chào trân trọng và chúc quý Công ty ngày càng phát triển thịnh vượng.</p>
+                                    <p className = {cx('introductionParagraph')}><strong>Kính gửi: Quý khách hàng</strong></p>
 
-                                    <p className = {cx('introductionParagraph')}>Là một doanh nghiệp hoạt động lâu năm trong lĩnh vực vận tải hàng hóa, nhằm đáp ứng nhu cầu vận chuyển hàng hóa ngày càng lớn của quý khách hàng, Chúng tôi đã đầu tư một lượng lớn phương tiện vận tải với nhiều loại trọng tải khác nhau, nhằm đáp ứng một cách tốt nhất nhu cầu vận chuyển hàng hóa. Chúng tôi cam kết cung cấp một dịch vụ hoàn hảo về vận chuyển hàng hóa bằng đường bộ, đường không, đường biển trên khắp mọi miền đất nước trên thế giới. Dịch vụ vận chuyển hàng hóa của Chúng tôi đã làm cho khách hàng thực sự an tâm khi hàng hoá của họ được giao cho chúng tôi. Chúng tôi đảm bảo sẽ đưa hàng của Quý khách đến nơi an toàn, đúng lịch trình.</p>
+                                    <p className = {cx('introductionParagraph')}>Công ty TNHH Thẩm định giá <strong>iValue</strong> xin gửi tới Quý khách hàng lời chào trân trọng và hợp tác.</p>
 
-                                    <p className = {cx('introductionParagraph')}>Đội ngũ nhân viên dày dặn kinh nghiệm trong lĩnh vực vận tải, được đào tạo bài bản, chịu được áp lực rất cao, đảm bảo an toàn cho hàng hóa của quý khách.</p>
+                                    <p className = {cx('introductionParagraph')}><strong>iValue</strong> được Bộ Tài chính và Sở kế hoạch và Đầu tư Thành phố Hồ Chí Minh công nhận là một doanh nghiệp có đầy đủ điều kiện hoạt động trong lĩnh vực Thẩm định giá.</p>
 
-                                    <p className = {cx('introductionParagraph')}>Với đội ngũ cán bộ, nhân viên điều hành năng động, nhiệt tình được đào tạo bài bản, am hiểu mọi khía cạnh trong lĩnh vực giao nhận vận tải, có thể tư vấn cho quý khách chọn được giải pháp an toàn, nhanh chóng và hiệu quả nhất, đáp ứng mọi yêu cầu vận chuyển của quý khách. Cùng với hệ thống kho bãi rộng, sạch sẽ, an ninh đảm bảo cho hàng hóa của quý khách.</p>
+                                    <p className = {cx('introductionParagraph')}>Trong quá trình hoạt động, Công ty chúng tôi đã đào tạo đội ngũ nhân sự có trình độ chuyên môn cao, giàu kinh nghiệm, năng động, sáng tạo gồm những thẩm định viên về giá, các chuyên gia về tài chính - kế toán, các kỹ sư chuyên ngành. Đội ngũ nhân viên của <strong>iValue</strong> luôn nhiệt tình, trách nhiệm và khát vọng vươn lên không ngừng để đáp ứng tất cả nhu cầu của Quý khách hàng.</p>
 
-                                    <p className = {cx('introductionParagraph')}>Đội ngũ bốc xếp được huấn luyện chuyên nghiệp bên cạnh các phương tiện hổ trợ như xe nâng,xe cẩu sẽ đáp ứng được yêu cầu trong quá trình bốc xếp hàng hóa.</p>
+                                    <p className = {cx('introductionParagraph')}>Với phương châm hoạt động "Uy tín – Chất lượng – Chuyên nghiệp", <strong>iValue</strong> cam kết  luôn cung cấp các dịch vụ Thẩm định giá một cách hoàn hảo nhất, trong thời gian ngắn nhất với mức phí hợp lý nhất.</p>
 
-                                    <p className = {cx('introductionParagraph')}>Chúng tôi sẽ tiếp tục khẳng định, phát triển để cung cấp những dịch vụ hoàn hảo và hiệu quả hơn để đáp ứng mọi yêu cầu của Quý khách hàng. Đến với Công Ty INTERLINK, quyền lợi của Quý khách hàng luôn luôn được đảm bảo. Chúng tôi cam đoan rằng sẽ trở thành một trong những nhà vận tải chuyên nghiệp hàng đầu Việt Nam.</p>
+                                    <p className = {cx('introductionParagraph')}>Xin trân trọng cảm ơn sự quan tâm của Quý khách hàng đã dành cho Công ty chúng tôi.</p>
 
-                                    {/* <h2 className = {cx('introductionParagraph')}><span style="font-size:16px;"><strong>Mọi thông tin chi tiết quý khách hàng liên hệ:</strong></span></h2> */}
+                                    <div className = 'clear40'></div>
+                                    
+                                    <div className = {cx('ivalueTarget')}>
+                                        <h2 className = {cx('introductionParagraph')}><strong>Tầm nhìn</strong></h2>
 
-                                    <p className = {cx('introductionParagraph')}><strong>Công Ty TNHH Vận Tải Liên Kết Quốc Tế </strong></p>
+                                        <ul class= {cx('listIntroduction')}>
+                                            <li> Trở thành doanh nghiệp hàng đầu Việt Nam trong lĩnh vực thẩm định giá và tư vấn đầu tư.</li>
+                                            <li> Xây dựng hình ảnh doanh nghiệp thẩm định giá chuyên nghiệp mang tầm quốc tế, đóng góp cho sự phát triển lành mạnh, bền vững của nền kinh tế.</li>
+                                        </ul>
+                                    </div>
 
-                                    <p className = {cx('introductionParagraph')}>Địa chỉ:  Lầu 3, Cao Ốc Đinh Lễ, P.12, Quận 4, TpHCM<br />
-                                    Điện thoại: 028 5447 7070<br />
-                                    Hotline: 0987 910 347<br />
-                                    Email: info@intertransco.com.vn</p>
+                                    <div className = 'clear40'></div>
+
+                                    <div className = {cx('ivalueTarget')}>
+                                        <h2 className = {cx('introductionParagraph')}><strong>Sứ mệnh</strong></h2>
+
+                                        <ul class= {cx('listIntroduction')}>
+                                            <li> Hướng tới xây dựng hình ảnh doanh nghiệp uy tín, cung cấp dịch vụ chất lượng cao,  trở thành đối tác tin cậy cho các doanh nghiệp trong và ngoài nước.</li>
+                                            <li> Xây dựng môi trường làm việc chuyên nghiệp, thân thiện. Đào tạo đội ngũ nhân sự đủ năng lực và phẩm chất.</li>
+                                            <li> Tạo ra lợi ích bền vững cho các chủ sở hữu. Xác định giá trị chuẩn xác cho các doanh nghiệp, cá nhân có nhu cầu xác định giá trị tài sản của mình.</li>
+                                        </ul>
+                                    </div>
+
+                                    <div className = 'clear40'></div>
+
+                                    <div className = {cx('ivalueTarget')}>
+                                        <h2 className = {cx('introductionParagraph')}><strong>Giá trị cốt lõi</strong></h2>
+
+                                        <ul class= {cx('listIntroduction')}>
+                                            <li> Uy tín – Vũ khí cạnh tranh & Danh dự của doanh nghiệp.</li>
+                                            <li> Chất lượng – Chính xác & Khoa học.</li>
+                                            <li> Nhân lực – Chuyên môn xuất sắc & Đạo đức tốt.</li>
+                                        </ul>
+                                    </div>
+
+                                    <div className = 'clear40'></div>
+
+                                    <h2 className = {cx('introductionParagraph')}><strong>Mọi thông tin chi tiết quý khách hàng liên hệ:</strong></h2>
+
+                                    <p className = {cx('introductionParagraph')}><strong>Công ty TNHH Thẩm định giá iValue</strong></p>
+
+                                    <p className = {cx('introductionParagraph')}>Địa chỉ:  L17-11, Tòa nhà Vincom Center, 72 Lê Thánh
+                                        Tôn, Phường Bến Nghé, Quận 1, Thành phố Hồ Chí Minh<br />
+                                    Hotline: 0926 37 9999<br />
+                                    Email: tdg@ivalue.com.vn</p>
                                 </div>
 
                                 <div className = 'clear40'></div>
 
                                 <div className= {cx("mainPrincipalOperation")} >
-                                    <div className= {cx("col-md-6")} data-aos="fade-left">
+                                    <div className= {cx("col-md-10")} data-aos="fade-left">
                                         <div className = {cx('principalBlock')}>
                                             <h3 className= {cx("principalTitle")}>Nguyên tắc hoạt động</h3>
                                             <ul class= {cx('principalList')}>
-                                                <li><i class="far fa-check-square"></i> Phong cách phục vụ uy tín - chuyên nghiệp - thân thiện đã góp phần xây dựng nên thương hiệu vận chuyển hàng hóa hàng đầu tại Việt Nam</li>
-                                                <li><i class="far fa-check-square"></i> Nhiệt tình, chu đáo, chuyên nghiệp và luôn bảo vệ các quyền hợp pháp của khách hàng</li>
-                                                <li><i class="far fa-check-square"></i> Tối đa hóa giá trị gia tăng cho khách hàng</li>
-                                                <li><i class="far fa-check-square"></i> Đặc biệt đánh giá cao “LÒNG TIN” bởi sự hài lòng của khách hàng.</li>
+                                                <li> Phong cách phục vụ uy tín - chuyên nghiệp - thân thiện đã góp phần xây dựng nên thương hiệu vận chuyển hàng hóa hàng đầu tại Việt Nam</li>
+                                                <li> Nhiệt tình, chu đáo, chuyên nghiệp và luôn bảo vệ các quyền hợp pháp của khách hàng</li>
+                                                <li> Tối đa hóa giá trị gia tăng cho khách hàng</li>
+                                                <li> Đặc biệt đánh giá cao “LÒNG TIN” bởi sự hài lòng của khách hàng.</li>
                                             </ul>
                                         </div>
                                     </div>

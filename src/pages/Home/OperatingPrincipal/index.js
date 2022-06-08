@@ -8,7 +8,7 @@ function principalOperation() {
         <div className= {cx("mainPrincipalOperation")} >
             <div className= {cx("col-md-6")} data-aos="fade-left">
                 <div className = {cx('principalBlock')}>
-                    <h3 className= {cx("principalTitle")}>Nguyên tắc hoạt động</h3>
+                    <h3 className= {cx("principalTitle")}>Phương châm hoạt động</h3>
                     <ul class= {cx('principalList')}>
                         <li><i class="far fa-check-square"></i> Phong cách phục vụ uy tín - chuyên nghiệp - thân thiện đã góp phần xây dựng nên thương hiệu vận chuyển hàng hóa hàng đầu tại Việt Nam</li>
                         <li><i class="far fa-check-square"></i> Nhiệt tình, chu đáo, chuyên nghiệp và luôn bảo vệ các quyền hợp pháp của khách hàng</li>
