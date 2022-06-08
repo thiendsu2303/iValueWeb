@@ -5,6 +5,7 @@ import Footer from '~/components/Layout/DefaultLayout/Footer';
 import BackToTop from '~/components/Layout/DefaultLayout/BackToTop';
 import SideBar from '~/components/Layout/DefaultLayout/SideBar';
 import Banner from '~/components/Layout/DefaultLayout/Banner';
+import Sponsor from '~/components/Layout/DefaultLayout/Sponsor';
 
 const cx = classNames.bind(styles);
 
@@ -76,17 +77,6 @@ function gioithieu() {
                                             <li> Nhân lực – Chuyên môn xuất sắc & Đạo đức tốt.</li>
                                         </ul>
                                     </div>
-
-                                    <div className = 'clear40'></div>
-
-                                    <h2 className = {cx('introductionParagraph')}><strong>Mọi thông tin chi tiết quý khách hàng liên hệ:</strong></h2>
-
-                                    <p className = {cx('introductionParagraph')}><strong>Công ty TNHH Thẩm định giá iValue</strong></p>
-
-                                    <p className = {cx('introductionParagraph')}>Địa chỉ:  L17-11, Tòa nhà Vincom Center, 72 Lê Thánh
-                                        Tôn, Phường Bến Nghé, Quận 1, Thành phố Hồ Chí Minh<br />
-                                    Hotline: 0926 37 9999<br />
-                                    Email: tdg@ivalue.com.vn</p>
                                 </div>
 
                                 <div className = 'clear40'></div>
@@ -104,6 +94,17 @@ function gioithieu() {
                                         </div>
                                     </div>
                                 </div>
+
+                                <div className = 'clear40'></div>
+
+                                <h2 className = {cx('introductionParagraph')}><strong>Mọi thông tin chi tiết quý khách hàng liên hệ:</strong></h2>
+
+                                <p className = {cx('introductionParagraph')}><strong>Công ty TNHH Thẩm định giá iValue</strong></p>
+
+                                <p className = {cx('introductionParagraph')}>Địa chỉ:  L17-11, Tòa nhà Vincom Center, 72 Lê Thánh
+                                    Tôn, Phường Bến Nghé, Quận 1, Thành phố Hồ Chí Minh<br />
+                                Hotline: 0926 37 9999<br />
+                                Email: tdg@ivalue.com.vn</p>
                             </div>
                         </div>
                     </div>
@@ -112,6 +113,10 @@ function gioithieu() {
 
             <div className = 'clear40'></div>
 
+            <Sponsor />
+
+            <div className = 'clear40'></div>
+            
             <Footer />
         </div>
     );
