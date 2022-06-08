@@ -84,7 +84,7 @@ function gioithieu() {
                                 <div className= {cx("mainPrincipalOperation")} >
                                     <div className= {cx("col-md-10")} data-aos="fade-left">
                                         <div className = {cx('principalBlock')}>
-                                            <h3 className= {cx("principalTitle")}>Nguyên tắc hoạt động</h3>
+                                            <h3 className= {cx("principalTitle")}><strong>Nguyên tắc hoạt động</strong></h3>
                                             <ul class= {cx('principalList')}>
                                                 <li> Phong cách phục vụ uy tín - chuyên nghiệp - thân thiện đã góp phần xây dựng nên thương hiệu vận chuyển hàng hóa hàng đầu tại Việt Nam</li>
                                                 <li> Nhiệt tình, chu đáo, chuyên nghiệp và luôn bảo vệ các quyền hợp pháp của khách hàng</li>
@@ -94,17 +94,6 @@ function gioithieu() {
                                         </div>
                                     </div>
                                 </div>
-
-                                <div className = 'clear40'></div>
-
-                                <h2 className = {cx('introductionParagraph')}><strong>Mọi thông tin chi tiết quý khách hàng liên hệ:</strong></h2>
-
-                                <p className = {cx('introductionParagraph')}><strong>Công ty TNHH Thẩm định giá iValue</strong></p>
-
-                                <p className = {cx('introductionParagraph')}>Địa chỉ:  L17-11, Tòa nhà Vincom Center, 72 Lê Thánh
-                                    Tôn, Phường Bến Nghé, Quận 1, Thành phố Hồ Chí Minh<br />
-                                Hotline: 0926 37 9999<br />
-                                Email: tdg@ivalue.com.vn</p>
                             </div>
                         </div>
                     </div>
@@ -116,7 +105,7 @@ function gioithieu() {
             <Sponsor />
 
             <div className = 'clear40'></div>
-            
+
             <Footer />
         </div>
     );
