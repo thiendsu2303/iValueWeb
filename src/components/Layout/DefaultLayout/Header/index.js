@@ -80,25 +80,25 @@ function Header() {
                                 </a>
                                 <ul className={cx('header-service-menu')}>
                                     <li>
-                                        <a href="/tdg-bds">THẨM ĐỊNH GIÁ BẤT ĐỘNG SẢN</a>
+                                        <a href="/dich-vu/#tdg-bds">THẨM ĐỊNH GIÁ BẤT ĐỘNG SẢN</a>
                                     </li>
                                     <li>
-                                        <a href="/tgd-ds">THẨM ĐỊNH GIÁ ĐỘNG SẢN</a>
+                                        <a href="/dich-vu/#tdg-ds">THẨM ĐỊNH GIÁ ĐỘNG SẢN</a>
                                     </li>
                                     <li>
                                         <a href="/dich-vu/#tdg-dn">THẨM ĐỊNH GIÁ DOANH NGHIỆP</a>
                                     </li>
                                     <li>
-                                        <a href="/tdg-vh">THẨM ĐỊNH GIÁ TRỊ VÔ HÌNH</a>
+                                        <a href="/dich-vu/#tdg-vh">THẨM ĐỊNH GIÁ TRỊ VÔ HÌNH</a>
                                     </li>
                                     <li>
-                                        <a href="/tv-dt">TƯ VẤN ĐẦU TƯ</a>
+                                        <a href="/dich-vu/#tv-dt">TƯ VẤN ĐẦU TƯ</a>
                                     </li>
                                     <li>
-                                        <a href="/tv-bds">TƯ VẤN BẤT ĐỘNG SẢN</a>
+                                        <a href="/dich-vu/#tv-bds">TƯ VẤN BẤT ĐỘNG SẢN</a>
                                     </li>
                                     <li>
-                                        <a href="/dich-vu#cc-ttkt">CUNG CẤP THÔNG TIN KINH TẾ</a>
+                                        <a href="/dich-vu/#cc-ttkt">CUNG CẤP THÔNG TIN KINH TẾ</a>
                                     </li>
                                 </ul>
                             </li>
