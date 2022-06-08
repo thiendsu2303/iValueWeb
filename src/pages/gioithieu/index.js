@@ -1,10 +1,10 @@
 import classNames from 'classnames/bind';
 import styles from './gioithieu.module.scss';
 import Header from '~/components/Layout/DefaultLayout/Header';
-import Sponsor from '~/components/Layout/DefaultLayout/Sponsor';
 import Footer from '~/components/Layout/DefaultLayout/Footer';
 import BackToTop from '~/components/Layout/DefaultLayout/BackToTop';
 import SideBar from '~/components/Layout/DefaultLayout/SideBar';
+import Banner from '~/components/Layout/DefaultLayout/Banner';
 
 const cx = classNames.bind(styles);
 
@@ -12,16 +12,9 @@ function gioithieu() {
     return (
         <div>
             <Header />
+            <BackToTop />
             <section className= {cx('hidden-container')}>
-                <div className={cx('bannerPage')}>
-                    <img
-                        src={
-                            'https://png.pngtree.com/thumb_back/fh260/back_our/20190623/ourmid/pngtree-summer-outdoor-scene-banner-image_249780.jpg'
-                        }
-                        className={cx('bannerImage')}
-                    />
-                    <h3 className={cx('titleLienHe')}>GIỚI THIỆU</h3>
-                </div>
+                <Banner content="GIỚI THIỆU" />
 
                 <div className = {cx('main-introduction')}>
                     <div className = 'clear40'></div>

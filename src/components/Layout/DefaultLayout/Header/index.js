@@ -2,6 +2,8 @@ import classNames from 'classnames/bind';
 import styles from './Header.module.scss';
 import logo from '../../../../assets/images/logo.jpg';
 import { useState } from 'react';
+import { Anchor } from 'antd';
+const { Link } = Anchor;
 
 const cx = classNames.bind(styles);
 
@@ -74,7 +76,7 @@ function Header() {
                                 <a href="/gioi-thieu">GIỚI THIỆU</a>
                             </li>
                             <li className={cx('header-service')}>
-                                <a href="dich-vu">
+                                <a href="/dich-vu">
                                     DỊCH VỤ
                                     <i className={cx('fas', 'fa-chevron-down')}></i>
                                 </a>
@@ -86,7 +88,7 @@ function Header() {
                                         <a href="/tgd-ds">THẨM ĐỊNH GIÁ ĐỘNG SẢN</a>
                                     </li>
                                     <li>
-                                        <a href="/tdg-dn">THẨM ĐỊNH GIÁ DOANH NGHIỆP</a>
+                                        <a href="/dich-vu/#tdg-dn">THẨM ĐỊNH GIÁ DOANH NGHIỆP</a>
                                     </li>
                                     <li>
                                         <a href="/tdg-vh">THẨM ĐỊNH GIÁ TRỊ VÔ HÌNH</a>
@@ -98,7 +100,7 @@ function Header() {
                                         <a href="/tv-bds">TƯ VẤN BẤT ĐỘNG SẢN</a>
                                     </li>
                                     <li>
-                                        <a href="/cc-ttkt">CUNG CẤP THÔNG TIN KINH TẾ</a>
+                                        <a href="/dich-vu#cc-ttkt">CUNG CẤP THÔNG TIN KINH TẾ</a>
                                     </li>
                                 </ul>
                             </li>

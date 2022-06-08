@@ -1,0 +1,23 @@
+.body-dichvu {
+    width: 100%;
+    overflow: hidden;
+}
+
+.container {
+    width: var(--container-width);
+    display: block;
+    box-sizing: border-box;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.content {
+    width: 76%;
+    display: block;
+    overflow: hidden;
+    padding: 0 30px;
+}

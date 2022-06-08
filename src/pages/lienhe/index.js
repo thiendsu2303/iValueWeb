@@ -4,6 +4,7 @@ import Header from '~/components/Layout/DefaultLayout/Header';
 import Sponsor from '~/components/Layout/DefaultLayout/Sponsor';
 import Footer from '~/components/Layout/DefaultLayout/Footer';
 import BackToTop from '~/components/Layout/DefaultLayout/BackToTop';
+import Banner from '~/components/Layout/DefaultLayout/Banner';
 
 const cx = classNames.bind(styles);
 
@@ -11,18 +12,8 @@ function LienHePage() {
     return (
         <div>
             <Header />
-            
+            <Banner content="LIÊN HỆ" />
             <div className={cx('bodyLienHe')}>
-                <div className={cx('bannerPage')}>
-                    <img
-                        src={
-                            'https://png.pngtree.com/thumb_back/fh260/back_our/20190623/ourmid/pngtree-summer-outdoor-scene-banner-image_249780.jpg'
-                        }
-                        className={cx('bannerImage')}
-                    />
-                    <h3 className={cx('titleLienHe')}>Liên Hệ</h3>
-                </div>
-                        
                 <div className = {cx('container')}>
                     <div className={cx('LienHeProcess')}>
                         <div className="clear40"></div>

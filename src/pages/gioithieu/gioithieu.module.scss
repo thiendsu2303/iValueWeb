@@ -2,16 +2,9 @@
     overflow: hidden;
 }
 
-.bannerPage {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.bannerPage > img {
-    height: 180px;
-    object-fit: cover;
+.main-introduction {
+    width: 100%;
+    overflow: hidden;
 }
 
 .container {
@@ -23,28 +16,7 @@
     margin-right: auto;
     margin-left: auto;
     overflow: hidden;
-    float: left;
     position: relative;
-}
-
-.bannerImage {
-    width: 100%;
-    max-width: 100%;
-    vertical-align: middle;
-    border: 0;
-}
-
-.titleLienHe {
-    position: absolute;
-    text-align: center;
-    z-index: 9;
-    display: block;
-
-    color: white;
-    margin: 0;
-    margin-bottom: 20px;
-    font-size: 45px;
-    text-transform: uppercase;
 }
 
 .col-md-9 {

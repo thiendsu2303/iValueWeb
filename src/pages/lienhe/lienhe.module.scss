@@ -9,38 +9,6 @@
     overflow: hidden;
 }
 
-.bannerPage {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.bannerPage > img {
-    height: 180px;
-    object-fit: cover;
-}
-
-.bannerImage {
-    width: 100%;
-    max-width: 100%;
-    vertical-align: middle;
-    border: 0;
-}
-
-.titleLienHe {
-    position: absolute;
-    text-align: center;
-    z-index: 9;
-    display: block;
-
-    color: white;
-    margin: 0;
-    margin-bottom: 20px;
-    font-size: 45px;
-    text-transform: uppercase;
-}
-
 .interactiveProcess {
     padding-right: 15px;
     padding-left: 15px;
