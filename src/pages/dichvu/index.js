@@ -22,7 +22,7 @@ function dichvu() {
                     <div className={cx('content')}>
                         <div id="tdg-bds" className={cx('main-content')}>
                             <div className={cx('content-img', 'left')}>
-                                <img src=""></img>
+                                <img src="https://cdn.vn.garenanow.com/web/lol-product/home/images/Lan_h3lpm3/03_2019/CaThangTu/Corki_Corgi_Rose_Quartz.png"></img>
                             </div>
                             <div className={cx('content-text', 'right')}>
                                 <h3 className={cx('text')}>Thẩm định giá bất động sản</h3>
@@ -40,7 +40,7 @@ function dichvu() {
                         <div className={cx('clear40')}></div>
                         <div id="tdg-ds" className={cx('main-content')}>
                             <div className={cx('content-img', 'right')}>
-                                <img src=""></img>
+                                <img src="https://cdn.vn.garenanow.com/web/lol-product/home/images/Lan_h3lpm3/03_2019/CaThangTu/Corki_Corgi_Rose_Quartz.png"></img>
                             </div>
                             <div className={cx('content-text', 'left')}>
                                 <h3 className={cx('text')}>Thẩm định giá động sản</h3>
@@ -55,7 +55,7 @@ function dichvu() {
                         <div className={cx('clear40')}></div>
                         <div id="tdg-dn" className={cx('main-content')}>
                             <div className={cx('content-img', 'left')}>
-                                <img src=""></img>
+                                <img src="https://cdn.vn.garenanow.com/web/lol-product/home/images/Lan_h3lpm3/03_2019/CaThangTu/Corki_Corgi_Rose_Quartz.png"></img>
                             </div>
                             <div className={cx('content-text', 'right')}>
                                 <h3 className={cx('text')}>Thẩm định giá trị doanh nghiệp</h3>
@@ -71,7 +71,7 @@ function dichvu() {
                         <div className={cx('clear40')}></div>
                         <div id="tdg-vh" className={cx('main-content')}>
                             <div className={cx('content-img', 'right')}>
-                                <img src=""></img>
+                                <img src="https://cdn.vn.garenanow.com/web/lol-product/home/images/Lan_h3lpm3/03_2019/CaThangTu/Corki_Corgi_Rose_Quartz.png"></img>
                             </div>
                             <div className={cx('content-text', 'left')}>
                                 <h3 className={cx('text')}>Thẩm định giá trị vô hình</h3>
@@ -85,7 +85,7 @@ function dichvu() {
                         <div className={cx('clear40')}></div>
                         <div id="tv-dt" className={cx('main-content')}>
                             <div className={cx('content-img', 'left')}>
-                                <img src=""></img>
+                                <img src="https://cdn.vn.garenanow.com/web/lol-product/home/images/Lan_h3lpm3/03_2019/CaThangTu/Corki_Corgi_Rose_Quartz.png"></img>
                             </div>
                             <div className={cx('content-text', 'right')}>
                                 <h3 className={cx('text')}>Tư vấn đầu tư</h3>
@@ -98,7 +98,7 @@ function dichvu() {
                         <div className={cx('clear40')}></div>
                         <div id="tv-bds" className={cx('main-content')}>
                             <div className={cx('content-img', 'right')}>
-                                <img src=""></img>
+                                <img src="https://cdn.vn.garenanow.com/web/lol-product/home/images/Lan_h3lpm3/03_2019/CaThangTu/Corki_Corgi_Rose_Quartz.png"></img>
                             </div>
                             <div className={cx('content-text', 'left')}>
                                 <h3 className={cx('text')}>Tư vấn bất động sản</h3>
@@ -112,7 +112,7 @@ function dichvu() {
                         <div className={cx('clear40')}></div>
                         <div id="cc-ttkt" className={cx('main-content')}>
                             <div className={cx('content-img', 'left')}>
-                                <img src=""></img>
+                                <img src="https://cdn.vn.garenanow.com/web/lol-product/home/images/Lan_h3lpm3/03_2019/CaThangTu/Corki_Corgi_Rose_Quartz.png"></img>
                             </div>
                             <div className={cx('content-text', 'right')}>
                                 <h3 className={cx('text')}>Cung cấp thông tin kinh tế</h3>

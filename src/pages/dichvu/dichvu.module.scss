@@ -26,20 +26,40 @@
     display: block;
     width: 100%;
     overflow: hidden;
+    margin-bottom: 10px;
 }
 
 .main-content .content-img {
-    width: 40%;
+    width: 30%;
+    height: 100%;
+}
+
+.main-content .content-img img {
+    height: 200px;
 }
 
 .main-content .content-text {
-    width: 60%;
+    width: 70%;
 }
 
 .right {
     float: right;
 }
 
+.right img {
+    float: right;
+}
+
 .left {
     float: left;
+}
+
+.content-text.right {
+    text-align: right;
+}
+
+.content-text .text {
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 29px;
 }
