@@ -26,36 +26,48 @@
     display: block;
     width: 100%;
     overflow: hidden;
-    margin-bottom: 10px;
 }
 
 .main-content .content-img {
     width: 30%;
-    height: 100%;
+    position: relative;
+    padding-top: 0;
+    padding-bottom: 20px;
 }
 
 .main-content .content-img img {
-    height: 200px;
+    width: 100%;
 }
 
 .main-content .content-text {
     width: 70%;
+    padding-top: 10px;
 }
 
 .right {
     float: right;
 }
 
+.content-img.right {
+    padding-left: 30px;
+    padding-right: 5px;
+}
+
 .right img {
     float: right;
+}
+
+.content-text.right {
+    text-align: right;
 }
 
 .left {
     float: left;
 }
 
-.content-text.right {
-    text-align: right;
+.content-img.left {
+    padding-right: 30px;
+    padding-left: 5px;
 }
 
 .content-text .text {
