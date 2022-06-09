@@ -21,6 +21,51 @@ function duan() {
                 />
                 <h3 className={cx('titleLienHe')}>Dự án</h3>
             </div>
+            <div className={cx('clear40')}></div>
+            <div className={cx('container')}>
+                <div className={cx('row-list-project')}>
+                    <div className={cx('col-lg-4', 'col-md-6')}>
+                        <div className={cx('img-project')}>
+                            <img></img>
+                        </div>
+                    </div>
+                    <div className={cx('col-lg-4', 'col-md-6')}>
+                        <div className={cx('img-project')}>
+                            <img></img>
+                        </div>
+                    </div>
+                    <div className={cx('col-lg-4', 'col-md-6')}>
+                        <div className={cx('img-project')}>
+                            <img></img>
+                        </div>
+                    </div>
+                    <div className={cx('col-lg-4', 'col-md-6')}>
+                        <div className={cx('img-project')}>
+                            <img></img>
+                        </div>
+                    </div>
+                    <div className={cx('col-lg-4', 'col-md-6')}>
+                        <div className={cx('img-project')}>
+                            <img></img>
+                        </div>
+                    </div>
+                    <div className={cx('col-lg-4', 'col-md-6')}>
+                        <div className={cx('img-project')}>
+                            <img></img>
+                        </div>
+                    </div>
+                    <div className={cx('col-lg-4', 'col-md-6')}>
+                        <div className={cx('img-project')}>
+                            <img></img>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className={cx('clear40')}></div>
+            <Sponsor />
+            <div className={cx('clear40')}></div>
+            <Footer />
+            <BackToTop />
         </div>
     );
 }
