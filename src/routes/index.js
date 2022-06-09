@@ -8,7 +8,7 @@ const publicRoutes = [
     { path: '/', component: Home, layout: Home },
     { path: '/gioi-thieu', component: gioithieu, layout: gioithieu },
     { path: '/dich-vu', component: dichvu, layout: dichvu },
-    { path: '/du-an', component: duan },
+    { path: '/du-an', component: duan , layout: duan},
     { path: '/lien-he', component: lienhe, layout: lienhe },
 ];
 
