@@ -8,6 +8,8 @@ import BackToTop from '~/components/Layout/DefaultLayout/BackToTop';
 import SideBar from '~/components/Layout/DefaultLayout/SideBar';
 import Banner from '~/components/Layout/DefaultLayout/Banner';
 
+import { isHeader } from '~/components/Layout/DefaultLayout/Header';
+
 const cx = classNames.bind(styles);
 
 function dichvu() {
@@ -20,7 +22,7 @@ function dichvu() {
                     <div className={cx('clear40')}></div>
                     <SideBar />
                     <div className={cx('content')}>
-                        <div id="tdg-bds" className={cx('main-content')}>
+                        <div id="tdg-bds" className={isHeader ? cx('anchor') : cx('main-content')}>
                             <div className={cx('content-img', 'left')}>
                                 <img src="http://img.cdn2.vietnamnet.vn/Images/english/2018/08/02/15/20180802145600-12.jpg"></img>
                             </div>

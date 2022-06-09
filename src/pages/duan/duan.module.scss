@@ -10,6 +10,11 @@
     position: relative;
 }
 
+.row3 {
+    width: 100%;
+    overflow: hidden;
+}
+
 .row {
     display: -ms-flexbox;
     display: flex;
@@ -28,13 +33,13 @@
 
 .list-project-small {
     float: left;
-    justify-content: center;
+    // justify-content: center;
     width: 30%;
     margin-left: 50px;
 }
 
 .item-project {
-    margin-bottom: 30px;
+    margin-bottom: 0px;
     margin-right: 0px;
 }
 
@@ -54,8 +59,8 @@
 
 .imageProject img:hover {
     transform: scale(1.2);
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
+    // -webkit-border-radius: 24px;
+    // -moz-border-radius: 50%;
     border-radius: 35%;
 }
 
@@ -65,5 +70,6 @@
     align-items: center;
     text-align: center;
     font-size: 20px;
+    padding: 0 10px;
     margin-bottom: 40px;
 }

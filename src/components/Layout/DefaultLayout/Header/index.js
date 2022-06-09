@@ -4,6 +4,7 @@ import logo from '../../../../assets/images/logo.jpg';
 import { useState } from 'react';
 
 const cx = classNames.bind(styles);
+var isHeader = false;
 
 function Header() {
     const [Header, setHeader] = useState(false);
@@ -11,8 +12,10 @@ function Header() {
     const afterScroll = () => {
         if (window.scrollY >= 50) {
             setHeader(true);
+            isHeader = true;
         } else {
             setHeader(false);
+            isHeader = false;
         }
     };
     window.addEventListener('scroll', afterScroll);
@@ -140,4 +143,6 @@ function Header() {
     );
 }
 
+export var isHeader;
 export default Header;
+// export isHeader;

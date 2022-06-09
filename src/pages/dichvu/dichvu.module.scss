@@ -26,6 +26,8 @@
     display: block;
     width: 100%;
     height: 400px;
+    scroll-margin-top: 150px;
+    // color: black !important;
 }
 
 .main-content .content-img {
@@ -75,4 +77,8 @@
 
 .content-img.left {
     padding-right: 10px;
+}
+
+.anchor {
+    color: red !important;
 }

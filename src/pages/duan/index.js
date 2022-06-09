@@ -60,7 +60,7 @@ function duan() {
                     </div>
                 </div>
 
-                <div className = 'clear80'></div>
+                <div className = 'clear10'></div>
 
                 <div className={cx('row', 'list-project')}>
                     <div className={cx('item-project')}>
@@ -90,90 +90,94 @@ function duan() {
                     </div>
                 </div>
 
-                <div className = 'clear80'></div>
+                <div className = 'clear10'></div>
 
-                <div className={cx('row', 'list-project-small')}>
-                    <div className={cx('item-project')}>
-                        <div className = {cx('imageProject')}>
-                            <img src = {projectimg5}></img>
+                <div className={cx('row3')}>
+                    <div className={cx('row', 'list-project-small')}>
+                        <div className={cx('item-project')}>
+                            <div className = {cx('imageProject')}>
+                                <img src = {projectimg5}></img>
+                            </div>
+
+                            <div className = 'clear20'></div>
+
+                            <div className = {cx('paraProject')}>
+                                <p><strong>Dự án Charm Plaza(Dĩ An, Bình Dương)</strong></p>
+                            </div>
                         </div>
+                    </div>
 
-                        <div className = 'clear20'></div>
+                    <div className={cx('row', 'list-project-small')}>
+                        <div className={cx('item-project')}>
+                            <div className = {cx('imageProject')}>
+                                <img src = {projectimg6}></img>
+                            </div>
 
-                        <div className = {cx('paraProject')}>
-                            <p><strong>Dự án Charm Plaza(Dĩ An, Bình Dương)</strong></p>
+                            <div className = 'clear20'></div>
+
+                            <div className = {cx('paraProject')}>
+                                <p><strong>Làng du lịch Cù Lần</strong></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className={cx('row', 'list-project-small')}>
+                        <div className={cx('item-project')}>
+                            <div className = {cx('imageProject')}>
+                                <img src = {projectimg7}></img>
+                            </div>
+
+                            <div className = 'clear20'></div>
+
+                            <div className = {cx('paraProject')}>
+                                <p><strong>Hệ thống nổi hơi</strong></p>
+                            </div>
                         </div>
                     </div>
                 </div>
 
-                <div className={cx('row', 'list-project-small')}>
-                    <div className={cx('item-project')}>
-                        <div className = {cx('imageProject')}>
-                            <img src = {projectimg6}></img>
-                        </div>
+                <div className = 'clear10'></div>
 
-                        <div className = 'clear20'></div>
+                <div className={cx('row3')}>
+                    <div className={cx('row', 'list-project-small')}>
+                        <div className={cx('item-project')}>
+                            <div className = {cx('imageProject')}>
+                                <img src = {projectimg8}></img>
+                            </div>
 
-                        <div className = {cx('paraProject')}>
-                            <p><strong>Làng du lịch Cù Lần</strong></p>
-                        </div>
-                    </div>
-                </div>
+                            <div className = 'clear20'></div>
 
-                <div className={cx('row', 'list-project-small')}>
-                    <div className={cx('item-project')}>
-                        <div className = {cx('imageProject')}>
-                            <img src = {projectimg7}></img>
-                        </div>
-
-                        <div className = 'clear20'></div>
-
-                        <div className = {cx('paraProject')}>
-                            <p><strong>Hệ thống nổi hơi</strong></p>
+                            <div className = {cx('paraProject')}>
+                                <p><strong>Vườn cao su tại Bình Phước</strong></p>
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <div className = 'clear80'></div>
+                    <div className={cx('row', 'list-project-small')}>
+                        <div className={cx('item-project')}>
+                            <div className = {cx('imageProject')}>
+                                <img src = {projectimg9}></img>
+                            </div>
 
-                <div className={cx('row', 'list-project-small')}>
-                    <div className={cx('item-project')}>
-                        <div className = {cx('imageProject')}>
-                            <img src = {projectimg8}></img>
-                        </div>
+                            <div className = 'clear20'></div>
 
-                        <div className = 'clear20'></div>
-
-                        <div className = {cx('paraProject')}>
-                            <p><strong>Vườn cao su tại Bình Phước</strong></p>
+                            <div className = {cx('paraProject')}>
+                                <p><strong>Dự án Picity</strong></p>
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <div className={cx('row', 'list-project-small')}>
-                    <div className={cx('item-project')}>
-                        <div className = {cx('imageProject')}>
-                            <img src = {projectimg9}></img>
-                        </div>
+                    <div className={cx('row', 'list-project-small')}>
+                        <div className={cx('item-project')}>
+                            <div className = {cx('imageProject')}>
+                                <img src = {projectimg10}></img>
+                            </div>
 
-                        <div className = 'clear20'></div>
+                            <div className = 'clear20'></div>
 
-                        <div className = {cx('paraProject')}>
-                            <p><strong>Dự án Picity</strong></p>
-                        </div>
-                    </div>
-                </div>
-
-                <div className={cx('row', 'list-project-small')}>
-                    <div className={cx('item-project')}>
-                        <div className = {cx('imageProject')}>
-                            <img src = {projectimg10}></img>
-                        </div>
-
-                        <div className = 'clear20'></div>
-
-                        <div className = {cx('paraProject')}>
-                            <p><strong>Hệ thống máy móc phương tiện vận tải</strong></p>
+                            <div className = {cx('paraProject')}>
+                                <p><strong>Hệ thống máy móc phương tiện vận tải</strong></p>
+                            </div>
                         </div>
                     </div>
                 </div>
