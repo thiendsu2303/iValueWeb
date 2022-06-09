@@ -152,6 +152,16 @@ function gioithieu() {
                                                     Nhiệt tình, chu đáo, chuyên nghiệp và luôn bảo vệ các quyền hợp pháp
                                                     của khách hàng
                                                 </li>
+                                            </ul>    
+                                <div className = 'clear40'></div>
+
+                                <div className= {cx("mainPrincipalOperation")} >
+                                    <div className= {cx("col-md-10")} data-aos="fade-left">
+                                        <div className = {cx('principalBlock')}>
+                                            <h3 className= {cx("principalTitle")}><strong>Phương châm hoạt động</strong></h3>
+                                            <ul class= {cx('principalList')}>
+                                                <li> Với phương châm hoạt động "Uy tín – Chất lượng – Chuyên nghiệp", <strong>iValue</strong> cam kết  luôn cung cấp các dịch vụ Thẩm định giá một cách hoàn hảo nhất, trong thời gian ngắn nhất với mức phí hợp lý nhất</li>
+                                                <li> Nhiệt tình, chu đáo, chuyên nghiệp và luôn bảo vệ các quyền hợp pháp của khách hàng</li>
                                                 <li> Tối đa hóa giá trị gia tăng cho khách hàng</li>
                                                 <li>
                                                     {' '}
