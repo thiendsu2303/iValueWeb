@@ -46,8 +46,10 @@ const HomeIntroduce = () => {
                                     <div className={cx('info-gt')}>
                                         <h4 className={cx('name-gt')}>Tầm nhìn</h4>
                                         <div>
-                                            Phong cách phục vụ uy tín - chuyên nghiệp - thân thiện đã góp phần xây
-                                            dựng nên thương hiệu vận chuyển hàng hóa hàng đầu tại Việt Nam
+                                            Trở thành doanh nghiệp hàng đầu Việt Nam trong lĩnh vực thẩm định giá và tư vấn đầu tư. 
+                                            <br></br>
+                                            Xây dựng hình ảnh doanh nghiệp thẩm định giá chuyên nghiệp mang tầm quốc tế, đóng góp 
+                                            cho sự phát triển lành mạnh, bền vững của nền kinh tế.
                                         </div>
                                     </div>
                                 </div>
@@ -59,7 +61,13 @@ const HomeIntroduce = () => {
                                     </div>
                                     <div className={cx('info-gt')}>
                                         <h4 className={cx('name-gt')}>Sứ mệnh</h4>
-                                        <div>Cải tiến liên tục, Hợp tác, Tôn trọng, Chăm sóc, Trách nhiệm</div>
+                                        <div>
+                                            Hướng tới xây dựng hình ảnh doanh nghiệp uy tín, cung cấp dịch vụ chất lượng cao.
+                                            <br></br>
+                                            Xây dựng môi trường làm việc chuyên nghiệp, thân thiện. 
+                                            <br></br>
+                                            Tạo ra lợi ích bền vững cho các chủ sở hữu.
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -70,7 +78,13 @@ const HomeIntroduce = () => {
                                     </div>
                                     <div className={cx('info-gt')}>
                                         <h4 className={cx('name-gt')}>Giá trị cốt lõi</h4>
-                                        <div>Nhiệt tình, năng động, hết lòng vì khách hàng</div>
+                                        <div>
+                                            Uy tín – Vũ khí cạnh tranh & Danh dự của doanh nghiệp.
+                                            <br></br>
+                                            Chất lượng – Chính xác & Khoa học.
+                                            <br></br>
+                                            Nhân lực – Chuyên môn xuất sắc & Đạo đức tốt.
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -82,8 +96,7 @@ const HomeIntroduce = () => {
                                     <div className={cx('info-gt')}>
                                         <h4 className={cx('name-gt')}>Đội ngũ</h4>
                                         <div>
-                                            Đội ngũ nhân viên chuyên nghiệp, giày dặn kinh nghiệm trong lĩnh vực vận
-                                            chuyển hàng hóa
+                                            Đội ngũ nhân sự có trình độ chuyên môn cao, giàu kinh nghiệm, năng động, sáng tạo.
                                         </div>
                                     </div>
                                 </div>

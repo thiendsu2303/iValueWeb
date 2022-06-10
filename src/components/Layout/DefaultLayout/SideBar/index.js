@@ -11,7 +11,7 @@ function SideBar() {
             <div className={cx('aside-giaidap')} data-aos="fade-right">
                 <h4 className={cx('tit-giaidap')}>Giải đáp thắc mắc</h4>
                 <div className={cx('des-gd')}>Hãy đặt câu hỏi cho chúng tôi để được giải đáp</div>
-                <a href="lienhe" className={cx('a-giaidap')}>
+                <a href="/lien-he" className={cx('a-giaidap')}>
                     Liên hệ
                     <i className={cx('fas fa-chevron-right')}></i>
                 </a>
@@ -39,15 +39,6 @@ function SideBar() {
                                 </Croursel>
                             </div>
                         </div>
-                        {/* <div className={cx('owl-nav', 'disabled')}>
-                            <button type="button" role="presentation" className={cx('owl-prev')}>
-                                <span aria-label="Previous"></span>
-                            </button>
-                            <button type="button" role="presentation" className={cx('owl-next')}>
-                                <span aria-label="Previous"></span>
-                            </button>
-                        </div>
-                        <div className={cx('owl-dots', 'disabled')}></div> */}
                     </div>
                 </div>
             </div>
