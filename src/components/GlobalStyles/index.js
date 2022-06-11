@@ -1,5 +1,5 @@
 import './GlobalStyles.scss';
-import AOS from "aos";
+import AOS from 'aos';
 
 function GlobalStyles({ children }) {
     AOS.init({

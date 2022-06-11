@@ -4,7 +4,6 @@
     min-height: 1px;
     padding: 0 15px;
     float: left;
-    
 }
 
 .aside-giaidap {
@@ -15,7 +14,7 @@
 }
 
 .aside-giaidap:before {
-    content: "";
+    content: '';
     position: absolute;
     width: 100%;
     height: 100%;
@@ -76,44 +75,21 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    box-shadow: inset -0.01em -0.1em 0 0 rgb(0 0 0 / 15%);
+}
+
+.a-call-us:hover {
+    color: var(--primary-color);
+    background-color: white;
+    box-shadow: 0px 1px 5px 1px gray;
 }
 
 .a-call-us:after {
     text-decoration: none;
-    content: "";
+    content: '';
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    box-shadow: inset -0.01em -0.1em 0 0 rgb(0 0 0 / 15%);
 }
-
-// .owl-carousel {
-//     display: none;
-//     width: 100%;
-// }
-
-// .khachhangdanggia {
-//     display: block;
-//     position: relative;
-// }
-
-// .owl-carousel.owl-loaded {
-//     display: block;
-//     float: left;
-// }
-
-// .owl-carousel .owl-stage-outer {
-//     position: relative;
-//     display: block;
-//     float: left;
-//     overflow: hidden;
-//     -webkit-transform: translate3d(0,0,0);
-// }
-
-// .owl-carousel .owl-stage-outer .owl-stage {
-//     width: 1752px;
-//     transform: translate3d(-1168px, 0px, 0px);
-//     transition: all 0.25s ease 0s;
-// }
