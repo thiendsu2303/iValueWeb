@@ -25,7 +25,7 @@
 .main-content {
     display: block;
     width: 100%;
-    height: 400px;
+    height: 500px;
     scroll-margin-top: 150px;
     // color: black !important;
 }
@@ -53,7 +53,7 @@
 }
 
 .content-text.right {
-    text-align: right;
+    // text-align: right;
     padding-left: 10px;
 }
 
@@ -81,4 +81,8 @@
 
 .anchor {
     color: red !important;
+}
+
+.para ul {
+    list-style-type: circle;
 }
