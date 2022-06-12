@@ -32,35 +32,39 @@ function SideBar() {
                 </a>
             </div>
             <hr></hr>
-            <div className={cx('khachhangdanggia')} data-aos="fade-right">
-                {/* <h4 className={cx('tit-aside')}>Khách hàng đánh giá:</h4> */}
-                <div className={cx('block-slider-kh')}>
-                    <div className={cx('slider-kh', 'owl-carousel', 'owl-theme', 'owl-loaded', 'owl-drag')}>
-                        <div className={cx('owl-stage-outer')}>
-                            <div className={cx('owl-stage')}>
-                                <Carousel indicators={false} controls={false}>
-                                    <Carousel.Item interval={2000}>
-                                        <FeedBack
-                                            content="Dự án Khách sạn Senla Boutique"
-                                            image={projectimg1}
-                                            name="Viet"
-                                        />
-                                    </Carousel.Item>
-                                    <Carousel.Item interval={2000}>
-                                        <FeedBack
-                                            content="Hệ thống kho chứa LPG - Khu công nghiệp Đình Vũ"
-                                            image={projectimg2}
-                                            name="Viet"
-                                        />
-                                    </Carousel.Item>
-                                    <Carousel.Item interval={2000}>
-                                        <FeedBack content="Dự án Tân Cảng Sài Gòn" image={projectimg3} name="Viet" />
-                                    </Carousel.Item>
-                                </Carousel>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div className={cx('service')} data-aos="fade-right">
+                <Carousel className={cx('service-slider')} indicators={false} controls={true}>
+                    <Carousel.Item interval={2000}>
+                        <FeedBack content="Khách sạn Senla Boutique" image={projectimg1} />
+                    </Carousel.Item>
+                    <Carousel.Item interval={2000}>
+                        <FeedBack content="Hệ thống kho chứa LPG - Khu công nghiệp Đình Vũ" image={projectimg2} />
+                    </Carousel.Item>
+                    <Carousel.Item interval={2000}>
+                        <FeedBack content="Tân Cảng Sài Gòn" image={projectimg3} />
+                    </Carousel.Item>
+                    <Carousel.Item interval={2000}>
+                        <FeedBack content="Bệnh viện Chợ Rẫy" image={projectimg4} />
+                    </Carousel.Item>
+                    <Carousel.Item interval={2000}>
+                        <FeedBack content="Charm Plaza (Dĩ An, Bình Dương)" image={projectimg5} />
+                    </Carousel.Item>
+                    <Carousel.Item interval={2000}>
+                        <FeedBack content="Làng du lịch Cù Lần" image={projectimg6} />
+                    </Carousel.Item>
+                    <Carousel.Item interval={2000}>
+                        <FeedBack content="Hệ thống nổi hơi" image={projectimg7} />
+                    </Carousel.Item>
+                    <Carousel.Item interval={2000}>
+                        <FeedBack content="Vườn cao su Bình Phước" image={projectimg8} />
+                    </Carousel.Item>
+                    <Carousel.Item interval={2000}>
+                        <FeedBack content="Dự án Picity" image={projectimg9} />
+                    </Carousel.Item>
+                    <Carousel.Item interval={2000}>
+                        <FeedBack content="Hệ thống máy móc phương tiện vận tải" image={projectimg10} />
+                    </Carousel.Item>
+                </Carousel>
             </div>
         </div>
     );

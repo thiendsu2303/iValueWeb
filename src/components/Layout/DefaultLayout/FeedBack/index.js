@@ -3,7 +3,7 @@ import styles from './FeedBack.module.scss';
 
 const cx = classNames.bind(styles);
 
-const FeedBack = ({ content, image, name }) => {
+const FeedBack = ({ content, image }) => {
     var serviceImgStyle = {
         backgroundImage: 'url(' + image + ')',
         width: '100%',
@@ -15,6 +15,7 @@ const FeedBack = ({ content, image, name }) => {
                 <div className={cx('service-img')}>
                     <div className={cx('bg')} style={serviceImgStyle}></div>
                 </div>
+                <div className={cx('title')}>DỰ ÁN NỔI BẬT</div>
                 <div className={cx('service-content')}>
                     <div className={cx('content')}> {content} </div>
                 </div>
