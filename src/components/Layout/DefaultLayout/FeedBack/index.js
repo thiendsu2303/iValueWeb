@@ -1,6 +1,5 @@
 import classNames from 'classnames/bind';
 import styles from './FeedBack.module.scss';
-import cover from '../../../../assets/images/sidebar-bg2.png';
 
 const cx = classNames.bind(styles);
 
