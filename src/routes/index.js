@@ -3,13 +3,15 @@ import gioithieu from '~/pages/gioithieu';
 import dichvu from '~/pages/dichvu';
 import duan from '~/pages/duan';
 import lienhe from '~/pages/lienhe';
+import tintuc from '~/pages/tintuc';
 
 const publicRoutes = [
     { path: '/', component: Home, layout: Home },
     { path: '/gioi-thieu', component: gioithieu, layout: gioithieu },
     { path: '/dich-vu', component: dichvu, layout: dichvu },
-    { path: '/du-an', component: duan , layout: duan},
+    { path: '/du-an', component: duan, layout: duan },
     { path: '/lien-he', component: lienhe, layout: lienhe },
+    { path: '/tin-tuc', component: tintuc, layout: tintuc },
 ];
 
 const privateRoutes = [];

@@ -107,6 +107,9 @@ function Header() {
                                 <a href="/du-an">DỰ ÁN</a>
                             </li>
                             <li>
+                                <a href="/tin-tuc">TIN TỨC</a>
+                            </li>
+                            <li>
                                 <a href="/lien-he">LIÊN HỆ</a>
                             </li>
                         </ul>
