@@ -20,6 +20,16 @@ header {
     background: #fff;
 }
 
+header.header-pad {
+    position: static;
+    display: block;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 150px;
+    z-index: 999;
+}
+
 header.header-fixed {
     animation: stuckMoveDown 1s;
     position: fixed;

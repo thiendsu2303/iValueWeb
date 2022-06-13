@@ -4,7 +4,6 @@ import logo from '../../../../assets/images/logo.jpg';
 import { useState } from 'react';
 
 const cx = classNames.bind(styles);
-var isHeader = false;
 
 function Header() {
     const [Header, setHeader] = useState(false);
@@ -12,15 +11,14 @@ function Header() {
     const afterScroll = () => {
         if (window.scrollY >= 50) {
             setHeader(true);
-            isHeader = true;
         } else {
             setHeader(false);
-            isHeader = false;
         }
     };
     window.addEventListener('scroll', afterScroll);
     return (
         <div>
+            <header className={Header ? cx('header-pad') : cx(' ')}></header>
             <header className={Header ? cx('header-fixed') : cx(' ')}>
                 <div className={cx('header-top')}>
                     <div className={cx('container')}>
@@ -83,7 +81,7 @@ function Header() {
                                 </a>
                                 <ul className={cx('header-service-menu')}>
                                     <li>
-                                        <a href="/dich-vu/#tdg-bds">THẨM ĐỊNH GIÁ BẤT ĐỘNG SẢN</a>
+                                        <a href="/dich-vu/#">THẨM ĐỊNH GIÁ BẤT ĐỘNG SẢN</a>
                                     </li>
                                     <li>
                                         <a href="/dich-vu/#tdg-ds">THẨM ĐỊNH GIÁ ĐỘNG SẢN</a>
@@ -111,29 +109,6 @@ function Header() {
                             <li>
                                 <a href="/lien-he">LIÊN HỆ</a>
                             </li>
-                            {/* <li className={cx('has-search')}>
-                                <a href="#">
-                                    <i className={cx('fas fa-search')}></i>
-                                </a>
-                                <div className={cx('block-search')}>
-                                    <form className={cx('f-search')} method="POST" action="timkiem">
-                                        <div className={cx('input-group stylish-input-group')}>
-                                            <input
-                                                type="text"
-                                                className={cx('form-color')}
-                                                placeholder="Tìm kiếm"
-                                                name="search"
-                                                required
-                                            ></input>
-                                            <span className={cx('input-group-addon')}>
-                                                <button type="submit" name="timkiem">
-                                                    <span className={cx('glyphicon glyphicon-search')}></span>
-                                                </button>
-                                            </span>
-                                        </div>
-                                    </form>
-                                </div>
-                            </li> */}
                         </ul>
                     </div>
                 </div>
@@ -143,6 +118,4 @@ function Header() {
     );
 }
 
-export var isHeader;
 export default Header;
-// export isHeader;
