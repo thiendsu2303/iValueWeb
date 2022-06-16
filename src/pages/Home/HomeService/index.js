@@ -16,7 +16,6 @@ const HomeService = () => {
             <div className={cx('clear40')}></div>
             <div className={cx('container')}>
                 <h3 className={cx('tit-pub', 'center')}>Dịch vụ</h3>
-                <div className={cx('clear40')}></div>
                 <div className={cx('row', 'flex-wrap')}>
                     <div className={cx('col-md-4', 'col-sm-12', 'col-xs-12')} data-aos="flip-left">
                         <div className={cx('list-gt', 'aos-init', 'aos-animate')}>

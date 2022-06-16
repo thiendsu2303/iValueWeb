@@ -120,3 +120,13 @@
     font-weight: 700;
     font-size: 18px;
 }
+
+@media (max-width: 1023px) {
+    .col-md-4 {
+        width: 100%;
+    }
+
+    .col-md-8 {
+        width: 100%;
+    }
+}
