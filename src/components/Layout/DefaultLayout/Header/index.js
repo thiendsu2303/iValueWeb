@@ -19,7 +19,7 @@ function Header() {
     return (
         <div>
             <header className={Header ? cx('header-pad') : cx(' ')}></header>
-            <header className={Header ? cx('') : cx(' ')}>
+            <header className={Header ? cx('header-fixed') : cx(' ')}>
                 <div className={cx('header-top')}>
                     <div className={cx('container')}>
                         <div className={cx('flex-box')}>
