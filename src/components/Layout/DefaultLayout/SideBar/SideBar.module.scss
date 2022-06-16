@@ -111,3 +111,11 @@
 .service .service-slider {
     display: block;
 }
+
+@media (max-width: 990px) {
+    .col-md-3 {
+        width: 100%;
+        padding: 0 50px;
+        margin-top: 20px;
+    }
+}

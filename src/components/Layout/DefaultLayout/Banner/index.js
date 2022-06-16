@@ -5,9 +5,17 @@ import img from '../../../../assets/images/banner.jpg';
 const cx = classNames.bind(styles);
 
 function Banner({ content }) {
+    var bannerImgStyle = {
+        backgroundImage: 'url(' + img + ')',
+        width: '100%',
+        height: '100%',
+    };
     return (
         <div className={cx('bannerPage')}>
-            <img src={img} className={cx('bannerImage')} />
+            {/* <img src={img} className={cx('bannerImage')} /> */}
+            <div className={cx('bannerImage')}>
+                <div className={cx('bg')} style={bannerImgStyle}></div>
+            </div>
             <h3 className={cx('titleLienHe')} data-aos="zoom-in">
                 {content}
                 <br></br>

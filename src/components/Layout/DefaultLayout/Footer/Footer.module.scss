@@ -167,3 +167,22 @@
     margin: 0;
     color: gray;
 }
+
+@media (max-width: 990px) {
+    .footer-top .container .flex-bw {
+        flex-direction: column;
+    }
+
+    .footer-top .container .col-md-4 {
+        width: 50%;
+    }
+
+    .footer-top .container .col-md-4 .info-com-ft {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .footer-top .container .col-md-4 .center {
+        margin-bottom: 20px;
+    }
+}
