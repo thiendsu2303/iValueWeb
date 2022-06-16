@@ -12,7 +12,7 @@ const cx = classNames.bind(styles);
 function Slider() {
     return (
         <div className={cx('slider')}>
-            <Carousel indicators={false} controls={true}>
+            <Carousel indicators={false} controls={false}>
                 <Carousel.Item interval={2000}>
                     <div className={cx('slider-content')} data-aos="fade-up-right">
                         <h3>CÔNG TY TNHH</h3>

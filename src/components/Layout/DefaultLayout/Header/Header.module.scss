@@ -52,7 +52,10 @@ header.header-fixed {
 
 .container {
     width: var(--container-width);
+    max-width: 100%;
+    overflow: hidden;
     display: block;
+    box-sizing: border-box;
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
