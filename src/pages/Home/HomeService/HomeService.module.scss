@@ -64,7 +64,7 @@
 }
 
 .info-gt {
-    margin-top: 15px;
+    padding-top: 15px;
 }
 
 .name-gt {
@@ -89,5 +89,31 @@
 @media (max-width: 990px) {
     .container {
         padding: 0 6%;
+    }
+}
+
+@media (max-width: 770px) {
+    .col-md-4 {
+        width: 100%;
+    }
+
+    .list-gt {
+        border: 2px solid black;
+        margin-bottom: 20px;
+        border-radius: 5%;
+        background-image: linear-gradient(to top, white, var(--primary-color));
+    }
+
+    .list-gt img {
+        border-radius: 5% 5% 0 0;
+    }
+
+    .list-gt .info-gt {
+        border-top: 2px solid black;
+        padding: 20px 10px 10px 20px;
+    }
+
+    .text-uppercase {
+        font-size: 20px;
     }
 }
