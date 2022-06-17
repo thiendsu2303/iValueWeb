@@ -68,6 +68,7 @@
     position: relative;
     padding: 0 20px;
     margin-bottom: 15%;
+    height: 45px;
 }
 
 .block-news .item-news.item-normal .item-wrap .caption-item h4{
@@ -77,4 +78,19 @@
 .block-news .item-news.item-normal .item-wrap .read-more {
     padding: 10px 20px 25px 20px;
     display: flex;
+}
+
+.block-news .item-news.item-normal .item-wrap .caption-item h4 a {
+    font-family: 'Quicksand';
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 1.2;
+    color: #004b86;
+    letter-spacing: 0px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    height: 43px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
 }
