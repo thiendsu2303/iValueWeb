@@ -154,18 +154,21 @@
 .footer-bottom {
     background: #000;
     display: block;
+    height: auto;
     padding: 10px 0;
     font-size: 15px;
 }
 
 .footer-bottom .container {
-    height: 20px;
+    display: block;
+    height: auto;
 }
 
 .footer-bottom .center {
     text-align: center;
-    margin: 0;
     color: gray;
+    display: block;
+    margin: 0;
 }
 
 @media (max-width: 990px) {
@@ -174,7 +177,8 @@
     }
 
     .footer-top .container .col-md-4 {
-        width: 50%;
+        width: 100%;
+        padding: 0 10%;
     }
 
     .footer-top .container .col-md-4 .info-com-ft {
