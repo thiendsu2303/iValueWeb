@@ -5,6 +5,7 @@
 
 .container {
     width: var(--container-width);
+    max-width: 100%;
     display: block;
     box-sizing: border-box;
     padding-right: 15px;
@@ -46,6 +47,7 @@
 }
 
 .main-content .image img {
+    width: 100%;
     height: 100%;
     display: block;
     margin-left: auto;
@@ -63,4 +65,31 @@
 .main-content .para {
     font-size: 20px;
     word-spacing: 2px;
+}
+
+@media (max-width: 990px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 6%;
+    }
+
+    .content {
+        width: 100%;
+    }
+
+    .main-content {
+        padding: 0;
+    }
+
+    .main-content .image {
+        height: 500px;
+    }
+}
+
+@media (max-width: 700px) {
+    .main-content .image {
+        height: 300px;
+    }
 }
