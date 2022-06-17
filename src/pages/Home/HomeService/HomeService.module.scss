@@ -85,3 +85,9 @@
 .name-gt a:hover {
     color: var(--primary-color);
 }
+
+@media (max-width: 990px) {
+    .container {
+        padding: 0 80px;
+    }
+}
