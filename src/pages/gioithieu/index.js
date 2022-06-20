@@ -11,6 +11,7 @@ import img1 from '../../assets/images/mainintro.jpg';
 const cx = classNames.bind(styles);
 
 function gioithieu() {
+    document.title = 'Giới thiệu';
     return (
         <div>
             <Header />

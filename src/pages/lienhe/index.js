@@ -9,6 +9,7 @@ import Banner from '~/components/Layout/DefaultLayout/Banner';
 const cx = classNames.bind(styles);
 
 function LienHePage() {
+    document.title = 'Liên hệ';
     return (
         <div>
             <Header />

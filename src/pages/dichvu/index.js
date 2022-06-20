@@ -1,4 +1,3 @@
-import { DefaultLayout } from '~/components/Layout';
 import classNames from 'classnames/bind';
 import styles from './dichvu.module.scss';
 import Header from '~/components/Layout/DefaultLayout/Header';
@@ -18,6 +17,7 @@ import img7 from '../../assets/images/homeservice/service-img7.jpg';
 const cx = classNames.bind(styles);
 
 function dichvu() {
+    document.title = 'Dịch vụ';
     return (
         <div>
             <Header />

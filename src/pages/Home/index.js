@@ -1,6 +1,5 @@
 import classNames from 'classnames/bind';
 import styles from './Home.module.scss';
-import { DefaultLayout } from '~/components/Layout';
 import PrincipalOperation from './OperatingPrincipal';
 import Header from '~/components/Layout/DefaultLayout/Header';
 import Slider from './Slider';

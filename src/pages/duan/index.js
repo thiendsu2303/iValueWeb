@@ -1,4 +1,3 @@
-import { DefaultLayout } from '~/components/Layout';
 import classNames from 'classnames/bind';
 import styles from './duan.module.scss';
 import Header from '~/components/Layout/DefaultLayout/Header';
@@ -23,6 +22,7 @@ import projectimg10 from '../../assets/images/duan/duan10.jpg';
 const cx = classNames.bind(styles);
 
 function duan() {
+    document.title = 'Dự án';
     return (
         <div>
             <Header />
