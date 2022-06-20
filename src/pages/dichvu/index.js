@@ -34,13 +34,14 @@ function dichvu() {
                             </div>
                             <p className={cx('para')}>
                                 Bất động sản là các tài sản bao gồm: đất đai, nhà, công trình xây dựng và các tài sản
-                                khác gắn liền với đất đai; các tài sản khác do pháp luật quy định. Dịch vụ thẩm định giá
-                                trị bất động sản của <strong>iValue</strong> sẽ cung cấp cho Quý khách hàng số tiền ước
-                                tính về giá trị của quyền sử dụng đất, quyền sở sở hữu nhà, công trình vật kiến trúc gắn
-                                liền với đất đang được mua bán trên thị trường vào thời điểm thẩm định giá và cho một
+                                khác gắn liền với đất đai; các tài sản khác do pháp luật quy định.
+                                <br />
+                                Dịch vụ thẩm định giá trị bất động sản của <strong>iValue</strong> sẽ tư vấn cho Quý
+                                khách hàng giá trị của quyền sử dụng đất, quyền sở hữu nhà, công trình vật kiến trúc gắn
+                                liền với đất đang được giao dịch trên thị trường vào thời điểm thẩm định giá và cho một
                                 mục đích đã được xác định rõ trong những điều kiện của một thị trường nhất định với
-                                những phương pháp phù hợp được quy định trong các tiêu chuẩn thẩm định giá Việt Nam hoặc
-                                thông lệ quốc tế.
+                                những phương pháp phù hợp theo các tiêu chuẩn thẩm định giá Việt Nam và thông lệ quốc
+                                tế.
                             </p>
                         </div>
                         <div className={cx('clear40')}></div>
@@ -50,11 +51,11 @@ function dichvu() {
                                 <img src={img2}></img>
                             </div>
                             <p className={cx('para')}>
-                                Động sản bao gồm: Máy móc thiết bị, phương tiện vận tải, các hàng hóa dịch vụ khác. Dịch
-                                vụ thẩm định giá trị động sản của <strong>iValue</strong> sẽ cung cấp cho Quý khách hàng
-                                số tiền ước tính về giá trị của các quyền sở hữu tài sản cụ thể bằng hình thức tiền tệ
-                                cho một mục đích đã được xác định rõ trong những điều kiện của một thị trường nhất định
-                                với những phương pháp phù hợp.
+                                Động sản bao gồm: Máy móc thiết bị, phương tiện vận tải, các hàng hóa dịch vụ khác.
+                                <br />
+                                Dịch vụ thẩm định giá trị động sản của <strong>iValue</strong> sẽ tư vấn cho Quý khách
+                                hàng giá trị của các quyền sở hữu tài sản cho một mục đích đã được xác định rõ trong
+                                những điều kiện của một thị trường nhất định với những phương pháp phù hợp.
                             </p>
                         </div>
                         <div className={cx('clear40')}></div>
@@ -66,10 +67,10 @@ function dichvu() {
                             <p className={cx('para')}>
                                 Thẩm định giá trị doanh nghiệp được hiểu là việc đánh giá các hoạt động, tài sản, các
                                 khoản ghi nợ của doanh nghiệp cũng như xác định giá trị hiện hữu và tiềm năng của doanh
-                                nghiệp. Dịch vụ thẩm định giá trị doanh nghiệp của <strong>iValue</strong> sẽ cung cấp
-                                cho Quý khách hàng trong các hoạt động mua bán, sáp nhập, hợp nhất hoặc chia nhỏ doanh
-                                nghiệp; nâng cao uy tín kinh doanh, khả năng tài chính và vị thế tín dụng đối với các
-                                nhà đầu tư hoặc chủ nợ.
+                                nghiệp. Dịch vụ thẩm định giá trị doanh nghiệp của <strong>iValue</strong> sẽ tư vấn cho
+                                Quý khách hàng trong các hoạt động mua bán, sáp nhập, hợp nhất và các hoạt động khác;
+                                nâng cao uy tín kinh doanh, khả năng tài chính và vị thế tín dụng đối với các nhà đầu tư
+                                hoặc chủ nợ.
                             </p>
                         </div>
                         <div className={cx('clear40')}></div>
@@ -81,15 +82,16 @@ function dichvu() {
                             <p className={cx('para')}>
                                 Tài sản vô hình đóng vai trò quan trọng trong sự thành công của doanh nghiệp, giúp doanh
                                 nghiệp tạo ra được dấu hiệu khác biệt trong thương trường cũng như tạo ra dấu ấn riêng
-                                có để đảm bảo doanh nghiệp phát triển, có nhiều cơ hội đặc biệt và thành công chung. Giá
-                                trị vô hình dựa trên đánh giá của thị trường về khả năng một công ty sẽ giữ cam kết về
-                                mức tăng trưởng trong tương lai đến mức độ nào. Trong vòng 20 năm qua, giá trị vô hình
-                                đã dần trở thành một phần không thể thiếu của tổng giá trị thị trường. Dịch vụ thẩm định
-                                giá trị vô hình bao gồm dịch vụ thẩm định giá trị thương hiệu, công nghệ, quyền sở hữu
-                                trí tuệ, giá trị nhân sự, lợi thế thương mại, giá trị lợi thế quyền thuê. Dịch vụ thẩm
-                                định vô hình của <strong>iValue</strong> sẽ giúp cho doanh nghiệp định lượng giá trị vô
-                                hình tiềm ẩn, đánh giá tiềm năng và sự phát triển, thiết lập nên hệ thống quản lý tài
-                                sản cố định vô hình của doanh nghiệp trên cơ sở giá trị hiện hữu một cách hiệu quả.
+                                có để đảm bảo doanh nghiệp phát triển, có nhiều cơ hội đặc biệt và thành công chung.
+                                <br />
+                                Dịch vụ thẩm định giá trị vô hình bao gồm dịch vụ thẩm định giá trị thương hiệu, công
+                                nghệ, quyền sở hữu trí tuệ, giá trị nhân sự, lợi thế thương mại, giá trị lợi thế quyền
+                                thuê.
+                                <br />
+                                Dịch vụ thẩm định vô hình của <strong>iValue</strong> sẽ tư vấn cho doanh nghiệp định
+                                lượng giá trị vô hình tiềm ẩn, đánh giá tiềm năng và sự phát triển, thiết lập nên hệ
+                                thống quản lý tài sản cố định vô hình của doanh nghiệp trên cơ sở giá trị hiện hữu một
+                                cách hiệu quả.
                             </p>
                         </div>
                         <div className={cx('clear40')}></div>
@@ -101,14 +103,14 @@ function dichvu() {
                             <p className={cx('para')}>
                                 Đầu tiên phải khẳng định rằng Tư vấn đầu tư là một lĩnh vực rất khó và không phải bất kỳ
                                 ai, bất kỳ doanh nghiệp nào cũng đủ khả năng thực hiện. Trên thực tế, các nhà tư vấn đầu
-                                tư ngoài việc phải nắm rõ lý thuyết của lĩnh vực thì còn cần phải có những hiểu biết rất
-                                sâu, tìm hiểu từng ngóc ngách, khía cạnh của các dự án chuẩn bị tư vấn nhằm giảm thiểu
-                                tối đa rủi ro có thể xảy ra. Do vậy, <strong>iValue</strong> có đội ngũ Chuyên viên tư
-                                vấn đảm bảo đủ các yếu tố:
+                                tư ngoài việc phải nắm rõ kiến thức của lĩnh vực, am hiểu pháp luật chuyên ngành thì còn
+                                cần phải có những hiểu biết sâu rộng và thực tế của các dự án tư vấn nhằm mang lại hiệu
+                                quả thực tế và giảm thiểu tối đa rủi ro có thể xảy ra cho khách hàng. Do vậy,{' '}
+                                <strong>iValue</strong> có đội ngũ Chuyên viên tư vấn đảm bảo đủ các yếu tố:
                                 <ul>
                                     <li>- Có hiểu biết về pháp luật, lĩnh vực đầu tư</li>
                                     <li>- Kinh nghiệm chuyên môn</li>
-                                    <li>- Hiểu rõ nhu cầu khách hàng</li>
+                                    <li>- Bảo mật và am hiểu nhu cầu đầu tư của khách hàng</li>
                                 </ul>
                                 Việc tư vấn đầu tư nhằm hướng tới mục đích cuối cùng đó là lợi nhuận thu được sau đầu
                                 tư. <strong>iValue</strong> tự tin cung cấp Dịch vụ Tư vấn Đầu tư với những nội dung chủ

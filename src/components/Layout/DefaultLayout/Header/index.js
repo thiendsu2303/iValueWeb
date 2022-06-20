@@ -32,12 +32,6 @@ function Header() {
                             <div className={cx('info')}>
                                 <p className={cx('p-info')}>
                                     <span>
-                                        <i className={cx('glyphicon', 'glyphicon-home')}></i>
-                                    </span>
-                                    L17-11, Vincom Center, 72 Lê Thánh Tôn, P.Bến Nghé, Q.1, TP.HCM
-                                </p>
-                                <p className={cx('p-info')}>
-                                    <span>
                                         <i className={cx('glyphicon', 'glyphicon-earphone')}></i>
                                     </span>
                                     0926 37 9999
@@ -47,6 +41,12 @@ function Header() {
                                         <i className={cx('glyphicon', 'glyphicon-envelope')}></i>
                                     </span>
                                     tdg@ivalue.com.vn
+                                </p>
+                                <p className={cx('p-info')}>
+                                    <span>
+                                        <i className={cx('glyphicon', 'glyphicon-home')}></i>
+                                    </span>
+                                    L17-11, Vincom Center, 72 Lê Thánh Tôn, P.Bến Nghé, Q.1, TP.HCM
                                 </p>
                             </div>
                             <div className={cx('social')}>

@@ -6,7 +6,7 @@ import BackToTop from '~/components/Layout/DefaultLayout/BackToTop';
 import SideBar from '~/components/Layout/DefaultLayout/SideBar';
 import Banner from '~/components/Layout/DefaultLayout/Banner';
 import Sponsor from '~/components/Layout/DefaultLayout/Sponsor';
-import img1 from '../../assets/images/mainintro.jpg';
+import img1 from '../../assets/images/mainintro2.png';
 
 const cx = classNames.bind(styles);
 

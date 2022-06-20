@@ -26,7 +26,7 @@ function SideBar() {
             </div>
             <hr></hr>
             <div className={cx('call-us')} data-aos="fade-right">
-                <h4 className={cx('tit-aside')}>Hoặc gọi đến đường dây nóng ngay lập tức:</h4>
+                <h4 className={cx('tit-aside')}>Hoặc gọi cho chúng tôi ngay lập tức:</h4>
                 <a href="tel:0926 37 9999" className={cx('a-call-us')}>
                     0926 37 9999
                 </a>

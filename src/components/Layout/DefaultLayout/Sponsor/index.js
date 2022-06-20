@@ -21,6 +21,10 @@ import img18 from '../../../../assets/images/sponsor/sponsor-img18.jpg';
 import img19 from '../../../../assets/images/sponsor/sponsor-img19.jpg';
 import img20 from '../../../../assets/images/sponsor/sponsor-img20.jpg';
 import img21 from '../../../../assets/images/sponsor/sponsor-img21.jpg';
+import img22 from '../../../../assets/images/sponsor/sponsor-img22.jpg';
+import img23 from '../../../../assets/images/sponsor/sponsor-img23.jpg';
+import img24 from '../../../../assets/images/sponsor/sponsor-img24.jpg';
+import img25 from '../../../../assets/images/sponsor/sponsor-img25.jpg';
 
 const cx = classNames.bind(styles);
 
@@ -28,51 +32,259 @@ const Sponsor = () => {
     return (
         <div className={cx('carousel')}>
             <div className={cx('carousel-track')}>
-                <div className={cx('carousel-box')}><div className={cx('carousel-container')}><img src={img1}></img></div></div>
-                <div className={cx('carousel-box')}><div className={cx('carousel-container')}><img src={img2}></img></div></div>
-                <div className={cx('carousel-box')}><div className={cx('carousel-container')}><img src={img3}></img></div></div>
-                <div className={cx('carousel-box')}><div className={cx('carousel-container')}><img src={img4}></img></div></div>
-                <div className={cx('carousel-box')}><div className={cx('carousel-container')}><img src={img5}></img></div></div>
-                <div className={cx('carousel-box')}><div className={cx('carousel-container')}><img src={img6}></img></div></div>
-                <div className={cx('carousel-box')}><div className={cx('carousel-container')}><img src={img7}></img></div></div>
-                <div className={cx('carousel-box')}><div className={cx('carousel-container')}><img src={img8}></img></div></div>
-                <div className={cx('carousel-box')}><div className={cx('carousel-container')}><img src={img9}></img></div></div>
-                <div className={cx('carousel-box')}><div className={cx('carousel-container')}><img src={img10}></img></div></div>
-                <div className={cx('carousel-box')}><div className={cx('carousel-container')}><img src={img11}></img></div></div>
-                <div className={cx('carousel-box')}><div className={cx('carousel-container')}><img src={img12}></img></div></div>
-                <div className={cx('carousel-box')}><div className={cx('carousel-container')}><img src={img13}></img></div></div>
-                <div className={cx('carousel-box')}><div className={cx('carousel-container')}><img src={img14}></img></div></div>
-                <div className={cx('carousel-box')}><div className={cx('carousel-container')}><img src={img15}></img></div></div>
-                <div className={cx('carousel-box')}><div className={cx('carousel-container')}><img src={img16}></img></div></div>
-                <div className={cx('carousel-box')}><div className={cx('carousel-container')}><img src={img17}></img></div></div>
-                <div className={cx('carousel-box')}><div className={cx('carousel-container')}><img src={img18}></img></div></div>
-                <div className={cx('carousel-box')}><div className={cx('carousel-container')}><img src={img19}></img></div></div>
-                <div className={cx('carousel-box')}><div className={cx('carousel-container')}><img src={img20}></img></div></div>
-                <div className={cx('carousel-box')}><div className={cx('carousel-container')}><img src={img21}></img></div></div>
-                <div className={cx('carousel-box')}><div className={cx('carousel-container')}><img src={img1}></img></div></div>
-                <div className={cx('carousel-box')}><div className={cx('carousel-container')}><img src={img2}></img></div></div>
-                <div className={cx('carousel-box')}><div className={cx('carousel-container')}><img src={img3}></img></div></div>
-                <div className={cx('carousel-box')}><div className={cx('carousel-container')}><img src={img4}></img></div></div>
-                <div className={cx('carousel-box')}><div className={cx('carousel-container')}><img src={img5}></img></div></div>
-                <div className={cx('carousel-box')}><div className={cx('carousel-container')}><img src={img6}></img></div></div>
-                <div className={cx('carousel-box')}><div className={cx('carousel-container')}><img src={img7}></img></div></div>
-                <div className={cx('carousel-box')}><div className={cx('carousel-container')}><img src={img8}></img></div></div>
-                <div className={cx('carousel-box')}><div className={cx('carousel-container')}><img src={img9}></img></div></div>
-                <div className={cx('carousel-box')}><div className={cx('carousel-container')}><img src={img10}></img></div></div>
-                <div className={cx('carousel-box')}><div className={cx('carousel-container')}><img src={img11}></img></div></div>
-                <div className={cx('carousel-box')}><div className={cx('carousel-container')}><img src={img12}></img></div></div>
-                <div className={cx('carousel-box')}><div className={cx('carousel-container')}><img src={img13}></img></div></div>
-                <div className={cx('carousel-box')}><div className={cx('carousel-container')}><img src={img14}></img></div></div>
-                <div className={cx('carousel-box')}><div className={cx('carousel-container')}><img src={img15}></img></div></div>
-                <div className={cx('carousel-box')}><div className={cx('carousel-container')}><img src={img16}></img></div></div>
-                <div className={cx('carousel-box')}><div className={cx('carousel-container')}><img src={img17}></img></div></div>
-                <div className={cx('carousel-box')}><div className={cx('carousel-container')}><img src={img18}></img></div></div>
-                <div className={cx('carousel-box')}><div className={cx('carousel-container')}><img src={img19}></img></div></div>
-                <div className={cx('carousel-box')}><div className={cx('carousel-container')}><img src={img20}></img></div></div>
-                <div className={cx('carousel-box')}><div className={cx('carousel-container')}><img src={img21}></img></div></div>
+                <div className={cx('carousel-box')}>
+                    <div className={cx('carousel-container')}>
+                        <img src={img1}></img>
+                    </div>
+                </div>
+                <div className={cx('carousel-box')}>
+                    <div className={cx('carousel-container')}>
+                        <img src={img2}></img>
+                    </div>
+                </div>
+                <div className={cx('carousel-box')}>
+                    <div className={cx('carousel-container')}>
+                        <img src={img3}></img>
+                    </div>
+                </div>
+                <div className={cx('carousel-box')}>
+                    <div className={cx('carousel-container')}>
+                        <img src={img4}></img>
+                    </div>
+                </div>
+                <div className={cx('carousel-box')}>
+                    <div className={cx('carousel-container')}>
+                        <img src={img5}></img>
+                    </div>
+                </div>
+                <div className={cx('carousel-box')}>
+                    <div className={cx('carousel-container')}>
+                        <img src={img6}></img>
+                    </div>
+                </div>
+                <div className={cx('carousel-box')}>
+                    <div className={cx('carousel-container')}>
+                        <img src={img7}></img>
+                    </div>
+                </div>
+                <div className={cx('carousel-box')}>
+                    <div className={cx('carousel-container')}>
+                        <img src={img8}></img>
+                    </div>
+                </div>
+                <div className={cx('carousel-box')}>
+                    <div className={cx('carousel-container')}>
+                        <img src={img9}></img>
+                    </div>
+                </div>
+                <div className={cx('carousel-box')}>
+                    <div className={cx('carousel-container')}>
+                        <img src={img10}></img>
+                    </div>
+                </div>
+                <div className={cx('carousel-box')}>
+                    <div className={cx('carousel-container')}>
+                        <img src={img11}></img>
+                    </div>
+                </div>
+                <div className={cx('carousel-box')}>
+                    <div className={cx('carousel-container')}>
+                        <img src={img12}></img>
+                    </div>
+                </div>
+                <div className={cx('carousel-box')}>
+                    <div className={cx('carousel-container')}>
+                        <img src={img13}></img>
+                    </div>
+                </div>
+                <div className={cx('carousel-box')}>
+                    <div className={cx('carousel-container')}>
+                        <img src={img14}></img>
+                    </div>
+                </div>
+                <div className={cx('carousel-box')}>
+                    <div className={cx('carousel-container')}>
+                        <img src={img15}></img>
+                    </div>
+                </div>
+                <div className={cx('carousel-box')}>
+                    <div className={cx('carousel-container')}>
+                        <img src={img16}></img>
+                    </div>
+                </div>
+                <div className={cx('carousel-box')}>
+                    <div className={cx('carousel-container')}>
+                        <img src={img17}></img>
+                    </div>
+                </div>
+                <div className={cx('carousel-box')}>
+                    <div className={cx('carousel-container')}>
+                        <img src={img18}></img>
+                    </div>
+                </div>
+                <div className={cx('carousel-box')}>
+                    <div className={cx('carousel-container')}>
+                        <img src={img19}></img>
+                    </div>
+                </div>
+                <div className={cx('carousel-box')}>
+                    <div className={cx('carousel-container')}>
+                        <img src={img20}></img>
+                    </div>
+                </div>
+                <div className={cx('carousel-box')}>
+                    <div className={cx('carousel-container')}>
+                        <img src={img21}></img>
+                    </div>
+                </div>
+                <div className={cx('carousel-box')}>
+                    <div className={cx('carousel-container')}>
+                        <img src={img22}></img>
+                    </div>
+                </div>
+                <div className={cx('carousel-box')}>
+                    <div className={cx('carousel-container')}>
+                        <img src={img23}></img>
+                    </div>
+                </div>
+                <div className={cx('carousel-box')}>
+                    <div className={cx('carousel-container')}>
+                        <img src={img24}></img>
+                    </div>
+                </div>
+                <div className={cx('carousel-box')}>
+                    <div className={cx('carousel-container')}>
+                        <img src={img25}></img>
+                    </div>
+                </div>
+                <div className={cx('carousel-box')}>
+                    <div className={cx('carousel-container')}>
+                        <img src={img1}></img>
+                    </div>
+                </div>
+                <div className={cx('carousel-box')}>
+                    <div className={cx('carousel-container')}>
+                        <img src={img2}></img>
+                    </div>
+                </div>
+                <div className={cx('carousel-box')}>
+                    <div className={cx('carousel-container')}>
+                        <img src={img3}></img>
+                    </div>
+                </div>
+                <div className={cx('carousel-box')}>
+                    <div className={cx('carousel-container')}>
+                        <img src={img4}></img>
+                    </div>
+                </div>
+                <div className={cx('carousel-box')}>
+                    <div className={cx('carousel-container')}>
+                        <img src={img5}></img>
+                    </div>
+                </div>
+                <div className={cx('carousel-box')}>
+                    <div className={cx('carousel-container')}>
+                        <img src={img6}></img>
+                    </div>
+                </div>
+                <div className={cx('carousel-box')}>
+                    <div className={cx('carousel-container')}>
+                        <img src={img7}></img>
+                    </div>
+                </div>
+                <div className={cx('carousel-box')}>
+                    <div className={cx('carousel-container')}>
+                        <img src={img8}></img>
+                    </div>
+                </div>
+                <div className={cx('carousel-box')}>
+                    <div className={cx('carousel-container')}>
+                        <img src={img9}></img>
+                    </div>
+                </div>
+                <div className={cx('carousel-box')}>
+                    <div className={cx('carousel-container')}>
+                        <img src={img10}></img>
+                    </div>
+                </div>
+                <div className={cx('carousel-box')}>
+                    <div className={cx('carousel-container')}>
+                        <img src={img11}></img>
+                    </div>
+                </div>
+                <div className={cx('carousel-box')}>
+                    <div className={cx('carousel-container')}>
+                        <img src={img12}></img>
+                    </div>
+                </div>
+                <div className={cx('carousel-box')}>
+                    <div className={cx('carousel-container')}>
+                        <img src={img13}></img>
+                    </div>
+                </div>
+                <div className={cx('carousel-box')}>
+                    <div className={cx('carousel-container')}>
+                        <img src={img14}></img>
+                    </div>
+                </div>
+                <div className={cx('carousel-box')}>
+                    <div className={cx('carousel-container')}>
+                        <img src={img15}></img>
+                    </div>
+                </div>
+                <div className={cx('carousel-box')}>
+                    <div className={cx('carousel-container')}>
+                        <img src={img16}></img>
+                    </div>
+                </div>
+                <div className={cx('carousel-box')}>
+                    <div className={cx('carousel-container')}>
+                        <img src={img17}></img>
+                    </div>
+                </div>
+                <div className={cx('carousel-box')}>
+                    <div className={cx('carousel-container')}>
+                        <img src={img18}></img>
+                    </div>
+                </div>
+                <div className={cx('carousel-box')}>
+                    <div className={cx('carousel-container')}>
+                        <img src={img19}></img>
+                    </div>
+                </div>
+                <div className={cx('carousel-box')}>
+                    <div className={cx('carousel-container')}>
+                        <img src={img20}></img>
+                    </div>
+                </div>
+                <div className={cx('carousel-box')}>
+                    <div className={cx('carousel-container')}>
+                        <img src={img21}></img>
+                    </div>
+                </div>
+                <div className={cx('carousel-box')}>
+                    <div className={cx('carousel-container')}>
+                        <img src={img22}></img>
+                    </div>
+                </div>
+                <div className={cx('carousel-box')}>
+                    <div className={cx('carousel-container')}>
+                        <img src={img23}></img>
+                    </div>
+                </div>
+                <div className={cx('carousel-box')}>
+                    <div className={cx('carousel-container')}>
+                        <img src={img24}></img>
+                    </div>
+                </div>
+                <div className={cx('carousel-box')}>
+                    <div className={cx('carousel-container')}>
+                        <img src={img25}></img>
+                    </div>
+                </div>
             </div>
         </div>
-    )
-}
+    );
+};
 
 export default Sponsor;
