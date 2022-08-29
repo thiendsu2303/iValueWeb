@@ -10,7 +10,7 @@ import img1 from '../../../assets/images/tintuc/tintuc4-1.png';
 const cx = classNames.bind(styles);
 
 function gioithieu() {
-    document.title = 'Giới thiệu';
+    document.title = 'Tin tức';
     return (
         <div>
             <Header />

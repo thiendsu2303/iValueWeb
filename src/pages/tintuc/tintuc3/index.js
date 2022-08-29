@@ -12,7 +12,7 @@ import img3 from '../../../assets/images/tintuc/tintuc3-3.png';
 const cx = classNames.bind(styles);
 
 function gioithieu() {
-    document.title = 'Giới thiệu';
+    document.title = 'Tin tức';
     return (
         <div>
             <Header />

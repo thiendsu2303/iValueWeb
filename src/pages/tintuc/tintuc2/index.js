@@ -11,7 +11,7 @@ import img2 from '../../../assets/images/tintuc/tintuc2-2.png';
 const cx = classNames.bind(styles);
 
 function gioithieu() {
-    document.title = 'Giới thiệu';
+    document.title = 'Tin tức';
     return (
         <div>
             <Header />
