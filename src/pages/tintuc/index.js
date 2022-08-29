@@ -29,7 +29,7 @@ function tintuc() {
                             <div className={cx('item-news', 'item-normal')}>
                                 <div className={cx('item-wrap')}>
                                     <div className={cx('item-thumb')}>
-                                        <a href="#">
+                                        <a href="/tin-tuc-1">
                                             <img
                                                 src={img1}
                                                 alt="ĐẠI HỘI ĐOÀN CƠ SỞ CÔNG TY CỔ PHẦN THÔNG TIN VÀ THẨM ĐỊNH GIÁ MIỀN NAM (SIVC) NHIỆM KỲ 2022 – 2027 "
@@ -69,7 +69,7 @@ function tintuc() {
                             <div className={cx('item-news', 'item-normal')}>
                                 <div className={cx('item-wrap')}>
                                     <div className={cx('item-thumb')}>
-                                        <a href="#">
+                                        <a href="/tin-tuc-2">
                                             <img
                                                 src={img2}
                                                 alt="ĐẠI HỘI ĐOÀN CƠ SỞ CÔNG TY CỔ PHẦN THÔNG TIN VÀ THẨM ĐỊNH GIÁ MIỀN NAM (SIVC) NHIỆM KỲ 2022 – 2027 "
@@ -109,7 +109,7 @@ function tintuc() {
                             <div className={cx('item-news', 'item-normal')}>
                                 <div className={cx('item-wrap')}>
                                     <div className={cx('item-thumb')}>
-                                        <a href="#">
+                                        <a href="/tin-tuc-3">
                                             <img
                                                 src={img3}
                                                 alt="ĐẠI HỘI ĐOÀN CƠ SỞ CÔNG TY CỔ PHẦN THÔNG TIN VÀ THẨM ĐỊNH GIÁ MIỀN NAM (SIVC) NHIỆM KỲ 2022 – 2027 "
@@ -149,7 +149,7 @@ function tintuc() {
                             <div className={cx('item-news', 'item-normal')}>
                                 <div className={cx('item-wrap')}>
                                     <div className={cx('item-thumb')}>
-                                        <a href="#">
+                                        <a href="/tin-tuc-4">
                                             <img
                                                 src={img4}
                                                 alt="ĐẠI HỘI ĐOÀN CƠ SỞ CÔNG TY CỔ PHẦN THÔNG TIN VÀ THẨM ĐỊNH GIÁ MIỀN NAM (SIVC) NHIỆM KỲ 2022 – 2027 "
@@ -185,7 +185,7 @@ function tintuc() {
                             <div className={cx('item-news', 'item-normal')}>
                                 <div className={cx('item-wrap')}>
                                     <div className={cx('item-thumb')}>
-                                        <a href="#">
+                                        <a href="/tin-tuc-5">
                                             <img
                                                 src={img5}
                                                 alt="ĐẠI HỘI ĐOÀN CƠ SỞ CÔNG TY CỔ PHẦN THÔNG TIN VÀ THẨM ĐỊNH GIÁ MIỀN NAM (SIVC) NHIỆM KỲ 2022 – 2027 "
