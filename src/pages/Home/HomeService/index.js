@@ -1,5 +1,6 @@
 import classNames from 'classnames/bind';
 import styles from './HomeService.module.scss';
+import { Link } from 'react-router-dom';
 import img1 from '../../../assets/images/homeservice/service-img1.jpeg';
 import img2 from '../../../assets/images/homeservice/service-img2.jpeg';
 import img3 from '../../../assets/images/homeservice/service-img3.jpg';
@@ -20,15 +21,15 @@ const HomeService = () => {
                     <div className={cx('col-md-4', 'col-sm-12', 'col-xs-12')} data-aos="flip-left">
                         <div className={cx('list-gt', 'aos-init', 'aos-animate')}>
                             <div className={cx('eff-scale')}>
-                                <a href="/dich-vu">
+                                <Link to="/dich-vu">
                                     <img src={img1}></img>
-                                </a>
+                                </Link>
                             </div>
                             <div className={cx('info-gt')}>
                                 <h4 className={cx('name-gt')}>
-                                    <a href="/dich-vu" className={cx('clblack', 'text-uppercase')}>
+                                    <Link to="/dich-vu" className={cx('clblack', 'text-uppercase')}>
                                         THẨM ĐỊNH GIÁ BẤT ĐỘNG SẢN
-                                    </a>
+                                    </Link>
                                 </h4>
                             </div>
                         </div>
@@ -36,15 +37,15 @@ const HomeService = () => {
                     <div className={cx('col-md-4', 'col-sm-12', 'col-xs-12')} data-aos="flip-left">
                         <div className={cx('list-gt', 'aos-init', 'aos-animate')}>
                             <div className={cx('eff-scale')}>
-                                <a href="/dich-vu">
+                                <Link to="/dich-vu">
                                     <img src={img2}></img>
-                                </a>
+                                </Link>
                             </div>
                             <div className={cx('info-gt')}>
                                 <h4 className={cx('name-gt')}>
-                                    <a href="/dich-vu" className={cx('clblack', 'text-uppercase')}>
+                                    <Link to="/dich-vu" className={cx('clblack', 'text-uppercase')}>
                                         THẨM ĐỊNH GIÁ ĐỘNG SẢN
-                                    </a>
+                                    </Link>
                                 </h4>
                             </div>
                         </div>
@@ -52,15 +53,15 @@ const HomeService = () => {
                     <div className={cx('col-md-4', 'col-sm-12', 'col-xs-12')} data-aos="flip-left">
                         <div className={cx('list-gt', 'aos-init', 'aos-animate')}>
                             <div className={cx('eff-scale')}>
-                                <a href="/dich-vu">
+                                <Link to="/dich-vu">
                                     <img src={img3}></img>
-                                </a>
+                                </Link>
                             </div>
                             <div className={cx('info-gt')}>
                                 <h4 className={cx('name-gt')}>
-                                    <a href="/dich-vu" className={cx('clblack', 'text-uppercase')}>
+                                    <Link to="/dich-vu" className={cx('clblack', 'text-uppercase')}>
                                         THẨM ĐỊNH GIÁ TRỊ DOANH NGHIỆP
-                                    </a>
+                                    </Link>
                                 </h4>
                             </div>
                         </div>
@@ -68,15 +69,15 @@ const HomeService = () => {
                     <div className={cx('col-md-4', 'col-sm-12', 'col-xs-12')} data-aos="flip-left">
                         <div className={cx('list-gt', 'aos-init', 'aos-animate')}>
                             <div className={cx('eff-scale')}>
-                                <a href="/dich-vu">
+                                <Link to="/dich-vu">
                                     <img src={img4}></img>
-                                </a>
+                                </Link>
                             </div>
                             <div className={cx('info-gt')}>
                                 <h4 className={cx('name-gt')}>
-                                    <a href="/dich-vu" className={cx('clblack', 'text-uppercase')}>
+                                    <Link to="/dich-vu" className={cx('clblack', 'text-uppercase')}>
                                         THẨM ĐỊNH GIÁ TRỊ VÔ HÌNH
-                                    </a>
+                                    </Link>
                                 </h4>
                             </div>
                         </div>
@@ -84,15 +85,15 @@ const HomeService = () => {
                     <div className={cx('col-md-4', 'col-sm-12', 'col-xs-12')} data-aos="flip-left">
                         <div className={cx('list-gt', 'aos-init', 'aos-animate')}>
                             <div className={cx('eff-scale')}>
-                                <a href="/dich-vu">
+                                <Link to="/dich-vu">
                                     <img src={img5}></img>
-                                </a>
+                                </Link>
                             </div>
                             <div className={cx('info-gt')}>
                                 <h4 className={cx('name-gt')}>
-                                    <a href="/dich-vu" className={cx('clblack', 'text-uppercase')}>
+                                    <Link to="/dich-vu" className={cx('clblack', 'text-uppercase')}>
                                         TƯ VẤN ĐẦU TƯ
-                                    </a>
+                                    </Link>
                                 </h4>
                             </div>
                         </div>
@@ -100,15 +101,15 @@ const HomeService = () => {
                     <div className={cx('col-md-4', 'col-sm-12', 'col-xs-12')} data-aos="flip-left">
                         <div className={cx('list-gt', 'aos-init', 'aos-animate')}>
                             <div className={cx('eff-scale')}>
-                                <a href="/dich-vu">
+                                <Link to="/dich-vu">
                                     <img src={img6}></img>
-                                </a>
+                                </Link>
                             </div>
                             <div className={cx('info-gt')}>
                                 <h4 className={cx('name-gt')}>
-                                    <a href="/dich-vu" className={cx('clblack', 'text-uppercase')}>
+                                    <Link to="/dich-vu" className={cx('clblack', 'text-uppercase')}>
                                         TƯ VẤN BẤT ĐỘNG SẢN
-                                    </a>
+                                    </Link>
                                 </h4>
                             </div>
                         </div>
@@ -116,15 +117,15 @@ const HomeService = () => {
                     <div className={cx('col-md-4', 'col-sm-12', 'col-xs-12')} data-aos="flip-left">
                         <div className={cx('list-gt', 'aos-init', 'aos-animate')}>
                             <div className={cx('eff-scale')}>
-                                <a href="/dich-vu">
+                                <Link to="/dich-vu">
                                     <img src={img7}></img>
-                                </a>
+                                </Link>
                             </div>
                             <div className={cx('info-gt')}>
                                 <h4 className={cx('name-gt')}>
-                                    <a href="/dich-vu" className={cx('clblack', 'text-uppercase')}>
+                                    <Link to="/dich-vu" className={cx('clblack', 'text-uppercase')}>
                                         CUNG CẤP THÔNG TIN KINH TẾ
-                                    </a>
+                                    </Link>
                                 </h4>
                             </div>
                         </div>

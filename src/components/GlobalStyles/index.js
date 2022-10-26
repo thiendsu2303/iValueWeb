@@ -1,4 +1,4 @@
-import './GlobalStyles.scss';
+import 'src/components/GlobalStyles/GlobalStyles.scss';
 import AOS from 'aos';
 
 function GlobalStyles({ children }) {

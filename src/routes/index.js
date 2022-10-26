@@ -1,17 +1,17 @@
-import Home from '~/pages/Home';
-import gioithieu from '~/pages/gioithieu';
-import dichvu from '~/pages/dichvu';
-import duan from '~/pages/duan';
-import lienhe from '~/pages/lienhe';
-import tintuc from '~/pages/tintuc';
-import tintuc1 from '~/pages/tintuc/tintuc1';
-import tintuc2 from '~/pages/tintuc/tintuc2';
-import tintuc3 from '~/pages/tintuc/tintuc3';
-import tintuc4 from '~/pages/tintuc/tintuc4';
-import tintuc5 from '~/pages/tintuc/tintuc5';
+import Home from '~/pages/Home/index';
+import gioithieu from '~/pages/gioithieu/index';
+import dichvu from '~/pages/dichvu/index';
+import duan from '~/pages/duan/index';
+import lienhe from '~/pages/lienhe/index';
+import tintuc from '~/pages/tintuc/index';
+import tintuc1 from '~/pages/tintuc/tintuc1/index';
+import tintuc2 from '~/pages/tintuc/tintuc2/index';
+import tintuc3 from '~/pages/tintuc/tintuc3/index';
+import tintuc4 from '~/pages/tintuc/tintuc4/index';
+import tintuc5 from '~/pages/tintuc/tintuc5/index';
 
 const publicRoutes = [
-    { path: '/', component: Home, layout: Home },
+    { path: '/', exact: true, component: Home, layout: Home },
     { path: '/gioi-thieu', component: gioithieu, layout: gioithieu },
     { path: '/dich-vu', component: dichvu, layout: dichvu },
     { path: '/du-an', component: duan, layout: duan },

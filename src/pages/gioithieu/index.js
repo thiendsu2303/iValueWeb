@@ -12,6 +12,7 @@ const cx = classNames.bind(styles);
 
 function gioithieu() {
     document.title = 'Giới thiệu';
+    window.scrollTo(0, 0);
     return (
         <div>
             <Header />

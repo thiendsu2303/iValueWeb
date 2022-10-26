@@ -10,6 +10,7 @@ const cx = classNames.bind(styles);
 
 function LienHePage() {
     document.title = 'Liên hệ';
+    window.scrollTo(0, 0);
     return (
         <div>
             <Header />

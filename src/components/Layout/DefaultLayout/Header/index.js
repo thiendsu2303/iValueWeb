@@ -3,6 +3,7 @@ import styles from './Header.module.scss';
 import logo from '../../../../assets/images/logo.jpg';
 import { useState } from 'react';
 import { Collapse } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 const cx = classNames.bind(styles);
 
@@ -26,9 +27,9 @@ function Header() {
                 <div className={cx('header-top')}>
                     <div className={cx('container')}>
                         <div className={cx('flex-box')}>
-                            <a href="/" className={cx('Logo')}>
+                            <Link to="/" className={cx('Logo')}>
                                 <img src={logo} alt="logo"></img>
-                            </a>
+                            </Link>
                             <div className={cx('info')}>
                                 <p className={cx('p-info')}>
                                     <span>
@@ -79,50 +80,50 @@ function Header() {
                     <div className={cx('container')}>
                         <ul className={cx('ul-main-menu')}>
                             <li className={cx('header-home')}>
-                                <a href="/">
+                                <Link to="/">
                                     <i className={cx('fas', 'fa-home')}></i>
-                                </a>
+                                </Link>
                             </li>
                             <li>
-                                <a href="/gioi-thieu">GIỚI THIỆU</a>
+                                <Link to="/gioi-thieu">GIỚI THIỆU</Link>
                             </li>
                             <li className={cx('header-service')}>
-                                <a href="/dich-vu">
+                                <Link to="/dich-vu">
                                     DỊCH VỤ
                                     <i className={cx('fas', 'fa-chevron-down')}></i>
-                                </a>
+                                </Link>
                                 <ul className={cx('header-service-menu')}>
                                     <li>
-                                        <a href="/dich-vu/#">THẨM ĐỊNH GIÁ BẤT ĐỘNG SẢN</a>
+                                        <Link to="/dich-vu">THẨM ĐỊNH GIÁ BẤT ĐỘNG SẢN</Link>
                                     </li>
                                     <li>
-                                        <a href="/dich-vu/#tdg-ds">THẨM ĐỊNH GIÁ ĐỘNG SẢN</a>
+                                        <Link to="/dich-vu">THẨM ĐỊNH GIÁ ĐỘNG SẢN</Link>
                                     </li>
                                     <li>
-                                        <a href="/dich-vu/#tdg-dn">THẨM ĐỊNH GIÁ DOANH NGHIỆP</a>
+                                        <Link to="/dich-vu">THẨM ĐỊNH GIÁ DOANH NGHIỆP</Link>
                                     </li>
                                     <li>
-                                        <a href="/dich-vu/#tdg-vh">THẨM ĐỊNH GIÁ TRỊ VÔ HÌNH</a>
+                                        <Link to="/dich-vu">THẨM ĐỊNH GIÁ TRỊ VÔ HÌNH</Link>
                                     </li>
                                     <li>
-                                        <a href="/dich-vu/#tv-dt">TƯ VẤN ĐẦU TƯ</a>
+                                        <Link to="/dich-vu">TƯ VẤN ĐẦU TƯ</Link>
                                     </li>
                                     <li>
-                                        <a href="/dich-vu/#tv-bds">TƯ VẤN BẤT ĐỘNG SẢN</a>
+                                        <Link to="/dich-vu">TƯ VẤN BẤT ĐỘNG SẢN</Link>
                                     </li>
                                     <li>
-                                        <a href="/dich-vu/#cc-ttkt">CUNG CẤP THÔNG TIN KINH TẾ</a>
+                                        <Link to="/dich-vu">CUNG CẤP THÔNG TIN KINH TẾ</Link>
                                     </li>
                                 </ul>
                             </li>
                             <li>
-                                <a href="/du-an">DỰ ÁN</a>
+                                <Link to="/du-an">DỰ ÁN</Link>
                             </li>
                             <li>
-                                <a href="/tin-tuc">TIN TỨC</a>
+                                <Link to="/tin-tuc">TIN TỨC</Link>
                             </li>
                             <li>
-                                <a href="/lien-he">LIÊN HỆ</a>
+                                <Link to="/lien-he">LIÊN HỆ</Link>
                             </li>
                         </ul>
                     </div>
@@ -149,14 +150,14 @@ function Header() {
                         </div>
                         <ul className={cx('menu-mobile')}>
                             <li>
-                                <a href="/">TRANG CHỦ</a>
+                                <Link to="/">TRANG CHỦ</Link>
                             </li>
                             <li>
-                                <a href="/gioi-thieu">GIỚI THIỆU</a>
+                                <Link to="/gioi-thieu">GIỚI THIỆU</Link>
                             </li>
                             <li className={cx('hassub-mb')}>
                                 <p className={cx('phelp')}>
-                                    <a href="/dich-vu">DỊCH VỤ</a>
+                                    <Link to="/dich-vu">DỊCH VỤ</Link>
                                     <a onClick={() => setOpen(!open)} className={cx('a-icon', 'collapsed')}>
                                         <i class="fas fa-angle-down"></i>
                                     </a>
@@ -164,37 +165,37 @@ function Header() {
                                 <Collapse in={open}>
                                     <ul className={cx('sub-menu-mb')}>
                                         <li>
-                                            <a href="/dich-vu/#">THẨM ĐỊNH GIÁ BẤT ĐỘNG SẢN</a>
+                                            <Link to="/dich-vu/#">THẨM ĐỊNH GIÁ BẤT ĐỘNG SẢN</Link>
                                         </li>
                                         <li>
-                                            <a href="/dich-vu/#tdg-ds">THẨM ĐỊNH GIÁ ĐỘNG SẢN</a>
+                                            <Link to="/dich-vu/#tdg-ds">THẨM ĐỊNH GIÁ ĐỘNG SẢN</Link>
                                         </li>
                                         <li>
-                                            <a href="/dich-vu/#tdg-dn">THẨM ĐỊNH GIÁ DOANH NGHIỆP</a>
+                                            <Link to="/dich-vu">THẨM ĐỊNH GIÁ DOANH NGHIỆP</Link>
                                         </li>
                                         <li>
-                                            <a href="/dich-vu/#tdg-vh">THẨM ĐỊNH GIÁ TRỊ VÔ HÌNH</a>
+                                            <Link to="/dich-vu">THẨM ĐỊNH GIÁ TRỊ VÔ HÌNH</Link>
                                         </li>
                                         <li>
-                                            <a href="/dich-vu/#tv-dt">TƯ VẤN ĐẦU TƯ</a>
+                                            <Link to="/dich-vu">TƯ VẤN ĐẦU TƯ</Link>
                                         </li>
                                         <li>
-                                            <a href="/dich-vu/#tv-bds">TƯ VẤN BẤT ĐỘNG SẢN</a>
+                                            <Link to="/dich-vu">TƯ VẤN BẤT ĐỘNG SẢN</Link>
                                         </li>
                                         <li>
-                                            <a href="/dich-vu/#cc-ttkt">CUNG CẤP THÔNG TIN KINH TẾ</a>
+                                            <Link to="/dich-vu">CUNG CẤP THÔNG TIN KINH TẾ</Link>
                                         </li>
                                     </ul>
                                 </Collapse>
                             </li>
                             <li>
-                                <a href="/du-an">DỰ ÁN</a>
+                                <Link to="/du-an">DỰ ÁN</Link>
                             </li>
                             <li>
-                                <a href="/tin-tuc">TIN TỨC</a>
+                                <Link to="/tin-tuc">TIN TỨC</Link>
                             </li>
                             <li>
-                                <a href="/lien-he">LIÊN HỆ</a>
+                                <Link to="/lien-he">LIÊN HỆ</Link>
                             </li>
                         </ul>
                     </div>

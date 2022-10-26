@@ -2,6 +2,7 @@ import classNames from 'classnames/bind';
 import styles from './SideBar.module.scss';
 import { Carousel } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { Link } from 'react-router-dom';
 import FeedBack from '../FeedBack';
 import projectimg1 from '../../../../assets/images/duan/duan1.jpg';
 import projectimg2 from '../../../../assets/images/duan/duan2.jpg';
@@ -19,10 +20,10 @@ function SideBar() {
     return (
         <div className={cx('col-md-3', 'order-3', 'aos-init', 'aos-animate')} data-aos="fade-right">
             <div className={cx('aside-giaidap')} data-aos="fade-right">
-                <a href="/lien-he" className={cx('a-giaidap')}>
+                <Link to="/lien-he" className={cx('a-giaidap')}>
                     Liên hệ
                     <i className={cx('fas fa-chevron-right')}></i>
-                </a>
+                </Link>
             </div>
             <hr></hr>
             <div className={cx('call-us')} data-aos="fade-right">

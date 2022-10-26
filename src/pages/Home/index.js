@@ -12,6 +12,7 @@ import BackToTop from '~/components/Layout/DefaultLayout/BackToTop';
 const cx = classNames.bind(styles);
 
 function Home() {
+    window.scrollTo(0, 0);
     return (
         <div>
             <Header />

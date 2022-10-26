@@ -23,6 +23,7 @@ const cx = classNames.bind(styles);
 
 function duan() {
     document.title = 'Dự án';
+    window.scrollTo(0, 0);
     return (
         <div>
             <Header />

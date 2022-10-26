@@ -1,5 +1,6 @@
 import classNames from 'classnames/bind';
 import styles from './HomeIntroduce.module.scss';
+import { Link } from 'react-router-dom';
 import img1 from '../../../assets/images/homeintro/homeintro-img1.jpg';
 import img2 from '../../../assets/images/homeintro/homeintro-img2.jpg';
 import img3 from '../../../assets/images/homeintro/homeintro-img3.jpg';
@@ -29,10 +30,10 @@ const HomeIntroduce = () => {
                             <p></p>
                         </div>
                         <div className={cx('clear20')}></div>
-                        <a href="gioi-thieu" className={cx('a-lienhe')}>
+                        <Link to="/gioi-thieu" className={cx('a-lienhe')}>
                             Tìm hiểu thêm
                             <i className={cx('fas fa-angle-right')}></i>
-                        </a>
+                        </Link>
                         <div className={cx('clear40')}></div>
                     </div>
                     <div className={cx('col-md-8', 'col-sm-12', 'col-xs-12')}>

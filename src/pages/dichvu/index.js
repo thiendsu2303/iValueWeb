@@ -18,6 +18,7 @@ const cx = classNames.bind(styles);
 
 function dichvu() {
     document.title = 'Dịch vụ';
+    window.scrollTo(0, 0);
     return (
         <div>
             <Header />

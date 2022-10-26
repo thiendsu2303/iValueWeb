@@ -11,6 +11,7 @@ const cx = classNames.bind(styles);
 
 function gioithieu() {
     document.title = 'Tin tức';
+    window.scrollTo(0, 0);
     return (
         <div>
             <Header />

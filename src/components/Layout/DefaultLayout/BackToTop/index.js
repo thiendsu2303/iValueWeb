@@ -5,14 +5,13 @@ const cx = classNames.bind(styles);
 
 function BackToTop() {
     const afterScroll = () => {
-        const backToTop = document.getElementById("back-to-top");
-        if(window.scrollY >= 5) {
-            backToTop.style.display = "block";
+        const backToTop = document.getElementById('back-to-top');
+        if (window.scrollY >= 5) {
+            backToTop.style.display = 'block';
+        } else {
+            backToTop.style.display = 'none';
         }
-        else {
-            backToTop.style.display = "none";
-        }
-    }
+    };
     window.addEventListener('scroll', afterScroll);
     return (
         <a id="back-to-top" href="#" className={cx('btn', 'btn-primary', 'btn-lg', 'back-to-top')} role="button">
