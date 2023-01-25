@@ -9,9 +9,9 @@ This is the Ivalue Website created by HCMUS Group
 ## Description
 The website is coded in [ReactJS](https://reactjs.org/tutorial/tutorial.html).
 
-The detail of website is in this link: [http://ivalue.com.vn/](http://ivalue.com.vn/)
+Our purpose of the website is to introduction IVALUE APPRAISAL CO., LTD to the customer. 
 
-Our purpose of the website is to introduction IVALUE APPRAISAL CO., LTD to the customer.
+To have more information about our company, access this link: [http://ivalue.com.vn/](http://ivalue.com.vn/)
 
 ## Getting Started with Create React App
 
