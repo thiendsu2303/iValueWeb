@@ -1,5 +1,5 @@
-# Ivalue Website
-This is the Ivalue Website created by HCMUS Group
+# iValue Website
+This is the iValue Website created by HCMUS Group
 
 ## Members
 * Tran Tuan Viet - HCMUS
